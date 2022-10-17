@@ -1,0 +1,9 @@
+T:0 Welcome to Tower defense template, use your mouse to drag and drop towers into the towers spots.  
+Right click a tower to open its upgrade panel, then select an action to do.  
+You can upgrade the tower, upgrade the bullets tower or sell the tower.
+
+T1: In this area you are going to use archer towers, try to place some towers on the field, so that the archers can stop the incoming enemies.
+
+T2: Now it's up to the wizards, add a few wizard towers to stop the enemy orde. Also use some archer towers and between them they will be unstoppable.
+
+T3: You're doing very well, now it's the turn of the melee towers, these towers create a melee-type unit that can slow down enemies, ideal for combining with archers and wizards.
