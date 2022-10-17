@@ -1,0 +1,85 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "TUTORIAL",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 176,
+      "layer": "TUTORIAL",
+      "name": "txt_tutorial",
+      "persistentUuid": "a9780e45-93b4-4f15-90d1-234f1e3b50eb",
+      "width": 344,
+      "x": 136,
+      "y": 144,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "TUTORIAL",
+      "name": "hud_box",
+      "persistentUuid": "f327e8f0-2063-49a7-a4b0-3894083fa39e",
+      "width": 0,
+      "x": 108,
+      "y": 44,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "TUTORIAL",
+      "name": "victory",
+      "persistentUuid": "a0189c11-22aa-49b3-bcf8-3342482ddad0",
+      "width": 0,
+      "x": 160,
+      "y": 0,
+      "zOrder": 11,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "TUTORIAL",
+      "name": "obj_btn_continue",
+      "persistentUuid": "9efb2fca-e967-4f1f-a4bb-6582a419bac5",
+      "width": 0,
+      "x": 248,
+      "y": 316,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 4,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 4,
+    "snap": true,
+    "windowMask": true,
+    "zoomFactor": 1.0833333251953126
+  }
+}

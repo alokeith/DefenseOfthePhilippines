@@ -1,0 +1,557 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "level_4",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "name": "start_path",
+      "persistentUuid": "5fb27efd-dbec-44f5-9786-ca22965028ae",
+      "width": 8,
+      "x": 12,
+      "y": 184,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "end_path",
+      "persistentUuid": "5dbb81ad-619f-4dca-91fe-36d141f57ae2",
+      "width": 32,
+      "x": 624,
+      "y": 184,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "6a901ca3-ef85-4b1c-88b5-99448a226bdd",
+      "width": 432,
+      "x": 224,
+      "y": 144,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "dcd25644-b4eb-402f-b1c4-f65a319dcf49",
+      "width": 16,
+      "x": -16,
+      "y": 144,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "7926bed7-195c-401b-ad28-03c3bb17533f",
+      "width": 176,
+      "x": -16,
+      "y": 208,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "7593cc2f-799b-4657-ab8d-1e7ed033371a",
+      "width": 0,
+      "x": 528,
+      "y": 152,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "wizards"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "0d9dfd7e-d691-4e56-8ff7-5959cd372722",
+      "width": 0,
+      "x": 176,
+      "y": 208,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "melee"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "60232fe8-46f7-4f0c-80ab-0eff5ee06173",
+      "width": 0,
+      "x": 80,
+      "y": 144,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "archers"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "5472bc11-1317-471d-8199-de35e6853841",
+      "width": 16,
+      "x": 640,
+      "y": 144,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "9e0163bd-92db-419c-949f-5e978fa0b01b",
+      "width": 320,
+      "x": 336,
+      "y": 208,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "b2b4dab4-81e0-4db8-8ec5-89c18981a5c0",
+      "width": 96,
+      "x": 192,
+      "y": 192,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "7a72b6c1-4023-4f8c-bee3-cc6832c5c4a0",
+      "width": 16,
+      "x": 112,
+      "y": 112,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "c5570e7b-a3e1-4c96-8b84-caa11ebd48af",
+      "width": 0,
+      "x": 80,
+      "y": 264,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "wizards"
+        },
+        {
+          "name": "bullet_price",
+          "type": "number",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "fc2f3f7f-094e-4beb-873c-eccf319640a9",
+      "width": 0,
+      "x": 480,
+      "y": 252,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "archers"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "efeee1df-bca6-4c38-a6a9-0766161b80cd",
+      "width": 0,
+      "x": 320,
+      "y": 240,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "melee"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "ee490e8e-5030-4eae-82ff-4183252a3760",
+      "width": 0,
+      "x": 320,
+      "y": 144,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "archers"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "964597a5-a7ba-48a6-ae02-3a16e6d9dfb4",
+      "width": 144,
+      "x": -16,
+      "y": 144,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "d382aec3-3aeb-4e5a-ac88-ab0ed2b98dbb",
+      "width": 64,
+      "x": 288,
+      "y": 192,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "49f48b47-562b-4133-abbf-977abd75b997",
+      "width": 16,
+      "x": 224,
+      "y": 112,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "1b12515e-f441-4ddf-97a7-1e31078a9640",
+      "width": 32,
+      "x": 64,
+      "y": 176,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "59cb99a3-ce48-4bf0-9bd0-94430d633a2b",
+      "width": 128,
+      "x": 112,
+      "y": 112,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "level_4",
+      "persistentUuid": "77a0aa90-cfda-4a98-8e28-d08fddc1435e",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "e1dbc1c5-81eb-47c5-9fe3-b9d8f22a544f",
+      "width": 64,
+      "x": 144,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "a0af8892-cc79-4026-921b-d45a337e5d0a",
+      "width": 64,
+      "x": 48,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "6db4d302-fb09-479e-be20-000279bb9008",
+      "width": 112,
+      "x": 368,
+      "y": 176,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "57716dbd-aabb-43af-a936-4477472bae87",
+      "width": 16,
+      "x": 288,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "51e21f52-d2d9-4105-a1f5-d924536b82af",
+      "width": 96,
+      "x": 560,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "6f243096-2b44-4d61-9726-a884fd9dbba9",
+      "width": 144,
+      "x": 352,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "e61993dc-85cf-4fc1-b1c9-2fe610dcaa5a",
+      "width": 16,
+      "x": 256,
+      "y": 176,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "72a3cd9f-c940-4112-86ca-904638ae9930",
+      "width": 16,
+      "x": 512,
+      "y": 176,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "OBSTACLES",
+      "name": "obstacle",
+      "persistentUuid": "d8d08303-46d7-42bc-8465-5e0b517423c5",
+      "width": 48,
+      "x": 496,
+      "y": 192,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 4,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 4,
+    "snap": true,
+    "windowMask": true,
+    "zoomFactor": 1.833333251953125
+  }
+}

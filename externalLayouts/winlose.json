@@ -1,0 +1,65 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "WINLOSE",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "WINLOSE",
+      "name": "victory",
+      "persistentUuid": "7a9e83fc-dc76-45b9-8f30-6186d16723c8",
+      "width": 0,
+      "x": 160,
+      "y": 4,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "WINLOSE",
+      "name": "hud_box",
+      "persistentUuid": "77b7b062-f8b9-4f92-b9b3-d2c1332b5e2a",
+      "width": 0,
+      "x": 112,
+      "y": 48,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "WINLOSE",
+      "name": "obj_btn_next",
+      "persistentUuid": "0e74293f-fb58-4d67-8c6b-6be6f78ee0d2",
+      "width": 0,
+      "x": 256,
+      "y": 322,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 4,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 4,
+    "snap": true,
+    "windowMask": true,
+    "zoomFactor": 0.9166666748046868
+  }
+}

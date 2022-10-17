@@ -1,0 +1,200 @@
+{
+  "author": "UlisesFreitas<ulises.freitas@gmail.com>",
+  "category": "",
+  "description": "Wait a determinate number of seconds to perform the next action.",
+  "extensionNamespace": "",
+  "fullName": "Wait",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFjY291bnQtY2xvY2stb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNiwxNEgxNy41VjE2LjgyTDE5Ljk0LDE4LjIzTDE5LjE5LDE5LjUzTDE2LDE3LjY5VjE0TTE3LDEyQTUsNSAwIDAsMCAxMiwxN0E1LDUgMCAwLDAgMTcsMjJBNSw1IDAgMCwwIDIyLDE3QTUsNSAwIDAsMCAxNywxMk0xNywxMEE3LDcgMCAwLDEgMjQsMTdBNyw3IDAgMCwxIDE3LDI0QzE0LjIxLDI0IDExLjgsMjIuMzYgMTAuNjcsMjBIMVYxN0MxLDE0LjM0IDYuMzMsMTMgOSwxM0M5LjYsMTMgMTAuMzQsMTMuMDcgMTEuMTIsMTMuMkMxMi4zNiwxMS4yOCAxNC41MywxMCAxNywxME0xMCwxN0MxMCwxNi4zIDEwLjEsMTUuNjIgMTAuMjksMTVDOS44NywxNC45MyA5LjQzLDE0LjkgOSwxNC45QzYuMDMsMTQuOSAyLjksMTYuMzYgMi45LDE3VjE4LjFIMTAuMDlDMTAuMDMsMTcuNzQgMTAsMTcuMzcgMTAsMTdNOSw0QTQsNCAwIDAsMSAxMyw4QTQsNCAwIDAsMSA5LDEyQTQsNCAwIDAsMSA1LDhBNCw0IDAgMCwxIDksNE05LDUuOUEyLjEsMi4xIDAgMCwwIDYuOSw4QTIuMSwyLjEgMCAwLDAgOSwxMC4xQTIuMSwyLjEgMCAwLDAgMTEuMSw4QTIuMSwyLjEgMCAwLDAgOSw1LjlaIiAvPjwvc3ZnPg==",
+  "name": "Wait",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/account-clock-outline.svg",
+  "shortDescription": "Wait for a sec!",
+  "version": "1.0.0",
+  "tags": [
+    "Wait",
+    "Delay"
+  ],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Trigger the wait condition",
+      "fullName": "Wait action",
+      "functionType": "Action",
+      "group": "",
+      "name": "WaitAction",
+      "private": false,
+      "sentence": "Waiting... _PARAM1_",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Main",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsString(\"WaitTimerName\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Set a name for Wait timer ",
+          "longDescription": "",
+          "name": "WaitTimerName",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Wait to trigger an action",
+      "fullName": "Waiting",
+      "functionType": "Condition",
+      "group": "",
+      "name": "WaitCondition",
+      "private": false,
+      "sentence": "Wait the action by _PARAM1_ for the timer _PARAM2_",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Main",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsString(\"WaitTimerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsString(\"WaitTimerName\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsNumber(\"WaitTime\")",
+                    "GetArgumentAsString(\"WaitTimerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "GetArgumentAsString(\"WaitTimerName\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Set delay timer name",
+          "longDescription": "",
+          "name": "WaitTimerName",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "string"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Delay Time",
+          "longDescription": "",
+          "name": "WaitTime",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
