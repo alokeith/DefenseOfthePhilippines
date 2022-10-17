@@ -23,7 +23,7 @@
     "author": "<ktlagos.student@asiancollege.edu.ph>",
     "windowWidth": 640,
     "windowHeight": 384,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\ACER\\Desktop\\TowerDefense",
     "maxFPS": 0,
     "minFPS": 20,
     "verticalSync": false,
@@ -71,7 +71,9 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "53HAl1KYxqWa3KI0zSpPdvKUXTk1"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],

@@ -375,7 +375,7 @@
       "customSize": false,
       "height": 0,
       "layer": "HUD",
-      "name": "obj_btn_delete",
+      "name": "obj_btn_quit",
       "persistentUuid": "e307fc4f-e7d3-49cf-834e-06a95d3d126e",
       "width": 0,
       "x": 264,
@@ -917,7 +917,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "obj_btn_delete",
+      "name": "obj_btn_quit",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1070,11 +1070,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "=",
-                "SceneWindowWidth()/2 - obj_btn_delete.Width()/2",
+                "SceneWindowWidth() / 2 - obj_btn_quit.Width() / 2",
                 "=",
-                "obj_btn_delete.Y()"
+                "obj_btn_quit.Y()"
               ]
             },
             {
@@ -1221,7 +1221,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "=",
                 "0"
               ]
@@ -1372,7 +1372,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "<",
                 "255"
               ]
@@ -1384,7 +1384,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "+",
                 "255*TimeDelta()"
               ]
@@ -1686,7 +1686,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Delete",
+      "name": "Quit",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1698,7 +1698,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "",
                 "",
                 ""
@@ -1718,7 +1718,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "obj_btn_delete",
+                "obj_btn_quit",
                 "=",
                 "255"
               ]
@@ -1802,6 +1802,14 @@
                     "",
                     "\"MainScene\"",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ]

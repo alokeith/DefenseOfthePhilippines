@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1166666625976556,
+    "zoomFactor": 1.1416666625976555,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -144,14 +144,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 49,
       "layer": "HUD",
       "name": "obj_btn_start",
       "persistentUuid": "0d52de5d-e4a6-4026-985b-075fdaf1e904",
-      "width": 0,
-      "x": 256,
-      "y": 316,
+      "width": 125,
+      "x": 249,
+      "y": 310,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -441,7 +441,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\select-game1.png",
+                  "image": "Assets\\sprites\\hud\\select-game-start.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

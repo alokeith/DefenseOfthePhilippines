@@ -541,17 +541,16 @@
     }
   ],
   "editionSettings": {
-    "grid": true,
-    "gridB": 255,
-    "gridG": 180,
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 4,
     "gridHeight": 4,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
-    "gridR": 158,
-    "gridType": "rectangular",
-    "gridWidth": 4,
-    "snap": true,
-    "windowMask": true,
-    "zoomFactor": 1.833333251953125
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.008333251953127,
+    "windowMask": true
   }
 }
