@@ -41,13 +41,34 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "821d5c25-5025-4f02-aa11-b90dac1f871e",
+      "width": 64,
+      "x": 396,
+      "y": 268,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "number",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "level_select",
       "persistentUuid": "f2eb9d6d-a1a2-451c-9a8d-a216a1f117ea",
       "width": 0,
-      "x": 164,
+      "x": 176,
       "y": 0,
       "zOrder": 3,
       "numberProperties": [
@@ -58,6 +79,53 @@
       ],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "bab26308-9cea-4919-9aad-e41367115d4f",
+      "width": 64,
+      "x": 228,
+      "y": 268,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "number",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "1e27a1eb-e098-4f0d-9cd0-c1338fd58458",
+      "width": 64,
+      "x": 312,
+      "y": 268,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "number",
+          "type": "number",
+          "value": 5
+        }
+      ]
     },
     {
       "angle": 0,
@@ -79,12 +147,149 @@
       "customSize": false,
       "height": 0,
       "layer": "HUD",
+      "name": "obj_btn_start",
+      "persistentUuid": "0d52de5d-e4a6-4026-985b-075fdaf1e904",
+      "width": 0,
+      "x": 256,
+      "y": 316,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "selector",
+      "persistentUuid": "2aab8fa1-edde-4330-ad5e-fd62805ff026",
+      "width": 64,
+      "x": 228,
+      "y": 184,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "dbd34f87-cf4c-4201-8fab-8fdb65eeb0b4",
+      "width": 64,
+      "x": 228,
+      "y": 184,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "ab350990-9344-4f73-a1df-7c9651f7434c",
+      "width": 64,
+      "x": 396,
+      "y": 184,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "number",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HUD",
       "name": "obj_btn_back",
       "persistentUuid": "5de6f799-67a9-4ad7-baa4-231531cd0d21",
       "width": 0,
       "x": 8,
       "y": 0,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "HUD",
+      "name": "obj_btn_level",
+      "persistentUuid": "7303e1df-9fbb-4f9b-8748-1dc79dfac365",
+      "width": 64,
+      "x": 312,
+      "y": 184,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "number",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obj_btn_credits",
+      "persistentUuid": "4ff01040-04c4-49bf-a301-90e3707d93c8",
+      "width": 0,
+      "x": 257,
+      "y": 286,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Sounds_text",
+      "persistentUuid": "019ba154-9270-4640-8351-8cb46e4e0dac",
+      "width": 0,
+      "x": 279,
+      "y": 152,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Music_text",
+      "persistentUuid": "c461fb63-afa4-4fa8-b664-a627c8e641bf",
+      "width": 0,
+      "x": 285,
+      "y": 210,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -187,6 +392,47 @@
     },
     {
       "assetStoreId": "",
+      "name": "obj_btn_credits",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\hud\\select-game-credits.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "hud_box",
       "tags": "",
       "type": "Sprite",
@@ -225,6 +471,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Sounds_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sounds",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Music_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Music\n",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -463,6 +751,92 @@
                   "parameters": [
                     "",
                     "\"MainScene\"",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 0,
+      "colorG": 0,
+      "colorR": 0,
+      "creationTime": 0,
+      "name": "Credits",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "obj_btn_credits",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "obj_btn_credits",
+                "=",
+                "255"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\sounds\\191756__leszek-szary__button-9.wav",
+                    "4",
+                    "GlobalVariable(g_sounds_vol)",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SplashScene\"",
                     "yes"
                   ]
                 }

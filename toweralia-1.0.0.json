@@ -1578,6 +1578,15 @@
         "name": "Assets\\sprites\\hud\\victory7.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/select-game-credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\select-game-credits.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
