@@ -208,7 +208,7 @@
       "height": 384,
       "name": "level_1",
       "tags": "",
-      "texture": "Assets\\map\\0000-Level_0.png",
+      "texture": "Assets\\map\\New Maps\\Level1-map - Copy.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -5325,7 +5325,6 @@
       "colorG": 155,
       "colorR": 155,
       "creationTime": 0,
-      "folded": true,
       "name": "Move backround",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6049,7 +6048,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"Now it's up to the wizards, add a few wizard towers to stop the enemy orde. Also use some archer towers and between them they will be unstoppable.\""
+                    "\"Now it's up to the wizards, add a few wizard towers to stop the enemy horde. Also use some archer towers and between them they will be unstoppable.\""
                   ]
                 }
               ],
@@ -6551,7 +6550,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13318,13 +13316,24 @@
       "effects": []
     },
     {
+      "ambientLightColorB": 8181528,
+      "ambientLightColorG": 6046096,
+      "ambientLightColorR": 8053688,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "level_01",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 9672808,
       "ambientLightColorG": 9672808,
       "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "level_1",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },

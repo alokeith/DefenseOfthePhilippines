@@ -1589,6 +1589,60 @@
         "name": "Assets\\sprites\\hud\\select-game-credits.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1_map - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1_map - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1_map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1_map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1 - map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1 - map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1-map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1-map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1-map - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1-map - Copy.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1720,6 +1774,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/winlose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level_12"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
