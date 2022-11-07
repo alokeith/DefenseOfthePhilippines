@@ -26,13 +26,13 @@
       "name": "Grade1EnemiesGroup",
       "objects": [
         {
-          "name": "enemy_0"
-        },
-        {
           "name": "enemy_1"
         },
         {
           "name": "enemy_2"
+        },
+        {
+          "name": "enemy_spaniard"
         }
       ]
     },
@@ -2817,6 +2817,186 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "enemy_spaniard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "max_hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "coins",
+          "type": "number",
+          "value": 30
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "cellHeight": 8,
+          "cellWidth": 8,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 25,
+          "rotateObject": false,
+          "acceleration": 400,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 0,
+          "extraBorder": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "enemy_spaniard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1429000049829483,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-3-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-4-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-5-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-6-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-7-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.23429861664772034,
+                    "y": 0.17662599682807922
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -7693,7 +7873,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "enemy_0",
+                                    "enemy_spaniard",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -7704,7 +7884,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_spaniard",
                                     "=",
                                     "3"
                                   ]
@@ -7714,7 +7894,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_spaniard",
                                     "hp",
                                     "=",
                                     "5"
@@ -7725,7 +7905,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_spaniard",
                                     "id",
                                     "=",
                                     "RandomInRange(1,30)"
@@ -7736,10 +7916,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_spaniard",
                                     "Pathfinding",
                                     "=",
-                                    "24"
+                                    "25\n"
                                   ]
                                 }
                               ]
@@ -7893,7 +8073,7 @@
                                     "enemy_1",
                                     "Pathfinding",
                                     "=",
-                                    "32"
+                                    "18\n"
                                   ]
                                 }
                               ]
@@ -8047,7 +8227,7 @@
                                     "enemy_2",
                                     "Pathfinding",
                                     "=",
-                                    "45"
+                                    "30"
                                   ]
                                 }
                               ]
@@ -11434,7 +11614,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Tower 1 archers shoot",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
