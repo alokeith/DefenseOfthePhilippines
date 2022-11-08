@@ -1913,6 +1913,150 @@
         "name": "Assets\\sprites\\enemies\\Spaniard\\enemy_spaniard-7-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/spaniard2_0_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\spaniard2_0_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Spaniard 2/knight_1_1-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

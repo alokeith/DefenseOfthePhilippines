@@ -26,13 +26,13 @@
       "name": "Grade1EnemiesGroup",
       "objects": [
         {
-          "name": "enemy_1"
-        },
-        {
           "name": "enemy_2"
         },
         {
-          "name": "enemy_spaniard"
+          "name": "enemy_0"
+        },
+        {
+          "name": "enemy_1"
         }
       ]
     },
@@ -2240,10 +2240,10 @@
       "effects": [],
       "behaviors": [
         {
+          "cellHeight": 8,
+          "cellWidth": 8,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "cellHeight": 12,
-          "cellWidth": 12,
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -2257,16 +2257,16 @@
       ],
       "animations": [
         {
-          "name": "bat_0",
+          "name": "enemy_spaniard3",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.16670000553131104,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\2\\bat_0.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2276,33 +2276,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 16,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\2\\bat_1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2312,33 +2293,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 16,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\2\\bat_2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2348,33 +2310,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 16,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\2\\bat_3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2384,29 +2327,78 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 16,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2447,9 +2439,9 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 8,
+          "cellWidth": 8,
           "angularMaxSpeed": 0,
-          "cellHeight": 12,
-          "cellWidth": 12,
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -2462,7 +2454,7 @@
       ],
       "animations": [
         {
-          "name": "knight_1_1-1",
+          "name": "enemy_spaniard2",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2470,8 +2462,8 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2481,33 +2473,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 4,
-                    "y": 4
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2517,33 +2490,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 4,
-                    "y": 4
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2553,33 +2507,14 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 4,
-                    "y": 4
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2589,29 +2524,78 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 4,
-                    "y": 4
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2652,213 +2636,8 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "cellHeight": 12,
-          "cellWidth": 12,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 25,
-          "rotateObject": false,
-          "acceleration": 400,
-          "allowDiagonals": false,
-          "angleOffset": 0,
-          "angularMaxSpeed": 0,
-          "extraBorder": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "enemy_3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\0\\enemy_0_0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\0\\enemy_0_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\0\\enemy_0_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\enemies\\0\\enemy_0_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "enemy_spaniard",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "hp",
-          "type": "number",
-          "value": 2
-        },
-        {
-          "name": "max_hp",
-          "type": "number",
-          "value": 2
-        },
-        {
-          "name": "id",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "coins",
-          "type": "number",
-          "value": 30
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
           "cellHeight": 8,
           "cellWidth": 8,
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 25,
@@ -7873,7 +7652,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "enemy_spaniard",
+                                    "enemy_0",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -7884,7 +7663,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_spaniard",
+                                    "enemy_0",
                                     "=",
                                     "3"
                                   ]
@@ -7894,7 +7673,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_spaniard",
+                                    "enemy_0",
                                     "hp",
                                     "=",
                                     "5"
@@ -7905,7 +7684,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_spaniard",
+                                    "enemy_0",
                                     "id",
                                     "=",
                                     "RandomInRange(1,30)"
@@ -7916,10 +7695,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_spaniard",
+                                    "enemy_0",
                                     "Pathfinding",
                                     "=",
-                                    "25\n"
+                                    "22"
                                   ]
                                 }
                               ]
@@ -8073,7 +7852,7 @@
                                     "enemy_1",
                                     "Pathfinding",
                                     "=",
-                                    "18\n"
+                                    "16"
                                   ]
                                 }
                               ]
