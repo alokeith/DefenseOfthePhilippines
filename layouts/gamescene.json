@@ -33,6 +33,9 @@
         },
         {
           "name": "enemy_1"
+        },
+        {
+          "name": "enemy_gc"
         }
       ]
     },
@@ -196,7 +199,7 @@
       "height": 384,
       "name": "level_2",
       "tags": "",
-      "texture": "Assets\\map\\0001-Level_1.png",
+      "texture": "Assets\\map\\New Maps\\Level2-map-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -2785,6 +2788,169 @@
     },
     {
       "assetStoreId": "",
+      "name": "enemy_gc",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "max_hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "coins",
+          "type": "number",
+          "value": 30
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 0,
+          "cellHeight": 8,
+          "cellWidth": 8,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 25,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "enemy_guardiacivil",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1429000049829483,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "end_path",
       "tags": "",
       "type": "Sprite",
@@ -4400,98 +4566,6 @@
                   },
                   "centerPoint": {
                     "automatic": false,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "enemy_placeholder",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.125,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\enemies\\1\\knight_1_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
@@ -7848,7 +7922,7 @@
                                     "enemy_0",
                                     "hp",
                                     "=",
-                                    "5"
+                                    "7"
                                   ]
                                 },
                                 {
@@ -7870,7 +7944,7 @@
                                     "enemy_0",
                                     "Pathfinding",
                                     "=",
-                                    "12"
+                                    "18\n"
                                   ]
                                 }
                               ]
@@ -7889,6 +7963,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies wave 0 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7988,7 +8063,7 @@
                                   "parameters": [
                                     "",
                                     "Grade1EnemiesGroup",
-                                    "\"enemy_placeholder\"",
+                                    "\"enemy_gc\"",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -7999,7 +8074,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "=",
                                     "3"
                                   ]
@@ -8009,10 +8084,10 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "hp",
                                     "=",
-                                    "5"
+                                    "16"
                                   ]
                                 },
                                 {
@@ -8020,7 +8095,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "id",
                                     "=",
                                     "RandomInRange(1,30)"
@@ -8031,10 +8106,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "Pathfinding",
                                     "=",
-                                    "12"
+                                    "18\n"
                                   ]
                                 }
                               ]
@@ -8507,7 +8582,7 @@
                                     "enemy_1",
                                     "hp",
                                     "=",
-                                    "6"
+                                    "10"
                                   ]
                                 },
                                 {
@@ -8529,7 +8604,7 @@
                                     "enemy_1",
                                     "Pathfinding",
                                     "=",
-                                    "16"
+                                    "24\n"
                                   ]
                                 }
                               ]
@@ -8548,6 +8623,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies wave 1 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8647,7 +8723,7 @@
                                   "parameters": [
                                     "",
                                     "Grade1EnemiesGroup",
-                                    "\"enemy_placeholder\"",
+                                    "\"enemy_gc\"",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -8658,7 +8734,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "=",
                                     "4"
                                   ]
@@ -8668,10 +8744,10 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "hp",
                                     "=",
-                                    "6"
+                                    "26"
                                   ]
                                 },
                                 {
@@ -8679,7 +8755,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "id",
                                     "=",
                                     "RandomInRange(31,60)"
@@ -8690,10 +8766,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "Pathfinding",
                                     "=",
-                                    "16"
+                                    "24"
                                   ]
                                 }
                               ]
@@ -9166,7 +9242,7 @@
                                     "enemy_2",
                                     "hp",
                                     "=",
-                                    "10"
+                                    "18"
                                   ]
                                 },
                                 {
@@ -9318,7 +9394,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "=",
                                     "5"
                                   ]
@@ -9328,10 +9404,10 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "hp",
                                     "=",
-                                    "10"
+                                    "34"
                                   ]
                                 },
                                 {
@@ -9339,7 +9415,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "id",
                                     "=",
                                     "RandomInRange(61,80)"
@@ -9350,10 +9426,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_placeholder",
+                                    "enemy_gc",
                                     "Pathfinding",
                                     "=",
-                                    "30"
+                                    "32"
                                   ]
                                 }
                               ]

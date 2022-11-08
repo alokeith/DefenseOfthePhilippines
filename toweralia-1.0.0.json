@@ -2057,6 +2057,168 @@
         "name": "Assets\\sprites\\enemies\\Spaniard 2\\knight_1_1-1-8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level2-map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level2-map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level2-map-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level2-map-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/enemy_guardiacivil-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-7.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
