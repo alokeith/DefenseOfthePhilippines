@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8599999999999999,
+    "zoomFactor": 0.9199999999999999,
     "windowMask": true
   },
   "objectsGroups": [
@@ -4411,6 +4411,98 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "enemy_placeholder",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\1\\knight_1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\1\\knight_1_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\1\\knight_1_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\1\\knight_1_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4429,13 +4521,6 @@
             "includeConfig": 0
           },
           "target": "Storage"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Levelselect"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4692,6 +4777,16 @@
                         "=",
                         "0.8"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -4814,6 +4909,16 @@
                         "=",
                         "6"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -4861,6 +4966,16 @@
                         "enemies_per_wave",
                         "=",
                         "8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "2"
                       ]
                     }
                   ]
@@ -4910,6 +5025,16 @@
                         "=",
                         "10"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "3"
+                      ]
                     }
                   ]
                 },
@@ -4957,6 +5082,16 @@
                         "enemies_per_wave",
                         "=",
                         "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "4"
                       ]
                     }
                   ]
@@ -5006,6 +5141,16 @@
                         "=",
                         "10"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "5"
+                      ]
                     }
                   ]
                 },
@@ -5053,6 +5198,16 @@
                         "enemies_per_wave",
                         "=",
                         "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "6"
                       ]
                     }
                   ]
@@ -5117,7 +5272,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Hide",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5236,7 +5390,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Stage rankings",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7571,6 +7724,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies wave 0 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7590,10 +7744,10 @@
                     },
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "VarScene"
                       },
                       "parameters": [
-                        "game_level",
+                        "game_selected",
                         "=",
                         "1"
                       ]
@@ -7735,6 +7889,501 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "name": "Enemies wave 0 (lvl2)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave0\"",
+                                "2",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_placeholder\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "=",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "hp",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(1,30)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "Pathfinding",
+                                    "=",
+                                    "12"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 0 (lvl3)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave0\"",
+                                "2",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_0\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "=",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "hp",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(1,30)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "Pathfinding",
+                                    "=",
+                                    "12"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 0 (lvl4)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave0\"",
+                                "2",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_0\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "=",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "hp",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(1,30)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_0",
+                                    "Pathfinding",
+                                    "=",
+                                    "12"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Enemies wave 1 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7754,10 +8403,10 @@
                     },
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "VarScene"
                       },
                       "parameters": [
-                        "game_level",
+                        "game_selected",
                         "=",
                         "1"
                       ]
@@ -7899,6 +8548,501 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "name": "Enemies wave 1 (lvl2)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave1\"",
+                                "1.8",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_placeholder\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "=",
+                                    "4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "hp",
+                                    "=",
+                                    "6"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(31,60)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "Pathfinding",
+                                    "=",
+                                    "16"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 1 (lvl3)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave1\"",
+                                "1.8",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_1\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "=",
+                                    "4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "hp",
+                                    "=",
+                                    "6"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(31,60)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "Pathfinding",
+                                    "=",
+                                    "16"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 1 (lvl4)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave1\"",
+                                "1.8",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_1\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "=",
+                                    "4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "hp",
+                                    "=",
+                                    "6"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(31,60)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_1",
+                                    "Pathfinding",
+                                    "=",
+                                    "16"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Enemies wave 2 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7918,12 +9062,507 @@
                     },
                     {
                       "type": {
-                        "value": "VarGlobal"
+                        "value": "VarScene"
                       },
                       "parameters": [
-                        "game_level",
+                        "game_selected",
                         "=",
                         "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave2\"",
+                                "3",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_2\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "hp",
+                                    "=",
+                                    "10"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(61,80)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "Pathfinding",
+                                    "=",
+                                    "30"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 2 (lvl2)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave2\"",
+                                "3",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_placeholder\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "hp",
+                                    "=",
+                                    "10"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(61,80)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_placeholder",
+                                    "Pathfinding",
+                                    "=",
+                                    "30"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 2 (lvl3)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Variable(kills_this_wave) + Count(Grade1EnemiesGroup) + Variable(enemies_escaped)",
+                                "<",
+                                "Variable(enemies_per_wave)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "Count(Grade1EnemiesGroup)",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "RepeatEveryXSeconds::Repeat"
+                              },
+                              "parameters": [
+                                "",
+                                "\"wave2\"",
+                                "3",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_2\"",
+                                    "start_path.X()",
+                                    "start_path.Y()",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "hp",
+                                    "=",
+                                    "10"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "id",
+                                    "=",
+                                    "RandomInRange(61,80)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "enemy_2",
+                                    "Pathfinding",
+                                    "=",
+                                    "30"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Enemies wave 2 (lvl4)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "current_wave",
+                        "<=",
+                        "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "game_selected",
+                        "=",
+                        "4"
                       ]
                     }
                   ],
@@ -8618,7 +10257,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Place tower",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
