@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1416666625976555,
+    "zoomFactor": 0.5016666625976549,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -129,14 +129,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 719,
       "layer": "",
       "name": "level_1",
       "persistentUuid": "72414ea3-3a3e-4f5d-885b-e69d474e66b5",
-      "width": 0,
-      "x": 0,
-      "y": 0,
+      "width": 745,
+      "x": -64,
+      "y": -332,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -256,11 +256,26 @@
       "height": 384,
       "name": "level_1",
       "tags": "",
-      "texture": "Assets\\map\\0000-Level_0.png",
+      "texture": "Assets\\map\\New Maps\\Level1-map.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 0.5,
+            "blur": 1,
+            "brightness": 0.8,
+            "padding": 0,
+            "quality": 7,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {

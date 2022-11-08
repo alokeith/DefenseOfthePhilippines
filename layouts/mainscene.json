@@ -76,61 +76,6 @@
       "height": 0,
       "layer": "",
       "name": "tower",
-      "persistentUuid": "c489b937-597c-4630-9cff-0f972a94c132",
-      "width": 0,
-      "x": 48,
-      "y": 240,
-      "zOrder": 3,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "8cba18e9-8e9e-47c3-9f6d-903b10540d33",
-      "width": 0,
-      "x": 544,
-      "y": 240,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "9f821b42-2f38-4d95-ae81-a17b34913e4a",
-      "width": 0,
-      "x": 464,
-      "y": 208,
-      "zOrder": 3,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
       "persistentUuid": "d51547c8-9d32-4cc9-b111-d847942379e8",
       "width": 0,
       "x": 384,
@@ -142,225 +87,10 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "84e38ccf-1d5f-40ec-af1f-b8f3897f93e3",
-      "width": 0,
-      "x": 288,
-      "y": 192,
-      "zOrder": 3,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "83409d6b-23ff-4941-a941-23bc1ead0253",
-      "width": 0,
-      "x": 208,
-      "y": 240,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "c2099260-120f-4699-b9aa-5c701230b03b",
-      "width": 0,
-      "x": 128,
-      "y": 208,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 172.38966369628906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "f52d20de-1dca-4f8b-9253-b91f786176c6",
-      "width": 13,
-      "x": 404.8035888671875,
-      "y": 180.80357360839844,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 311.4757385253906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "243b287a-fb02-4d32-83a0-45fd2cb49522",
-      "width": 13,
-      "x": 76.32499694824219,
-      "y": 190.6750030517578,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 172.38966369628906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "2aaed7af-ab24-482c-82f5-335d80d92b1c",
-      "width": 13,
-      "x": 194.19642639160156,
-      "y": 190.19642639160156,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 172.38966369628906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "e6a97da6-e73c-4df6-948e-1b4e782b737c",
-      "width": 13,
-      "x": 428.8035888671875,
-      "y": 176.80357360839844,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 172.38966369628906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "d5c86f8b-52bf-4a63-a0bb-34ebc1afc8a8",
-      "width": 13,
-      "x": 254.19642639160156,
-      "y": 174.19642639160156,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 311.4757385253906,
-      "customSize": true,
-      "height": 13,
-      "layer": "",
-      "name": "tower_1_arrow",
-      "persistentUuid": "aeafd6b3-d024-4749-b738-aaa818b886cc",
-      "width": 13,
-      "x": 60.32499694824219,
-      "y": 196.3249969482422,
-      "zOrder": 5,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "enemy_0",
-      "persistentUuid": "dc5c0e53-d4b0-4dbf-ba83-91dfc7b6c2d3",
-      "width": 0,
-      "x": 388,
-      "y": 180,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "enemy_0",
-      "persistentUuid": "8bb71cc8-8278-4a1d-9b08-5db69deb8bc5",
-      "width": 0,
-      "x": 80,
-      "y": 180,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "enemy_0",
-      "persistentUuid": "799c8939-e309-423b-9b84-ddba009657b6",
-      "width": 0,
-      "x": 224,
-      "y": 184,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 72,
       "layer": "HUD",
-      "name": "txt_controls",
+      "name": "info_txt",
       "persistentUuid": "9427ff98-f46f-44ec-abb5-97f3443c611b",
       "width": 408,
       "x": 115,
@@ -390,7 +120,7 @@
       "customSize": true,
       "height": 60,
       "layer": "HUD",
-      "name": "controls_bg",
+      "name": "info_bg",
       "persistentUuid": "eca500b7-860b-41aa-8c4a-61a323fad07e",
       "width": 416,
       "x": 110,
@@ -422,11 +152,21 @@
       "height": 384,
       "name": "map",
       "tags": "",
-      "texture": "Assets\\map\\0000-Level_0.png",
+      "texture": "Assets\\map\\New Maps\\Level1 - map.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "LightNight",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
@@ -960,7 +700,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "txt_controls",
+      "name": "info_txt",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -968,7 +708,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Controls:\nUse the mouse to drag and drop a tower. Right click a tower to open its upgrade panel",
+      "string": "A Game Submitted to the Faculty of the College of Computer Studies and Engineering",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
       "characterSize": 10,
       "color": {
@@ -1001,7 +741,7 @@
     {
       "assetStoreId": "",
       "height": 8,
-      "name": "controls_bg",
+      "name": "info_bg",
       "tags": "",
       "texture": "Assets\\sprites\\hud\\controls_bg-1.png",
       "type": "TiledSpriteObject::TiledSprite",
@@ -1124,7 +864,7 @@
                 "value": "TextObject::SetTextAlignment"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "\"center\""
               ]
             },
@@ -1133,7 +873,7 @@
                 "value": "TextObject::Size"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "=",
                 "40"
               ]
@@ -1143,7 +883,7 @@
                 "value": "TextObject::Scale"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "=",
                 "0.2"
               ]
@@ -1153,7 +893,7 @@
                 "value": "TextObject::SetOutline"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "\"0;0;0\"",
                 "8"
               ]
@@ -1163,7 +903,7 @@
                 "value": "TextObject::SetWrapping"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "yes"
               ]
             },
@@ -1172,7 +912,7 @@
                 "value": "TextObject::WrappingWidth"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "=",
                 "1920"
               ]
@@ -1182,7 +922,7 @@
                 "value": "TiledSpriteObject::SetOpacity"
               },
               "parameters": [
-                "controls_bg",
+                "info_bg",
                 "=",
                 "150"
               ]
@@ -1424,11 +1164,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "txt_controls",
+                "info_txt",
                 "=",
-                "(SceneWindowWidth()/2)- (txt_controls.Width()/2)",
+                "(SceneWindowWidth() / 2) - (info_txt.Width() / 2)",
                 "=",
-                "txt_controls.Y()"
+                "info_txt.Y()"
               ]
             },
             {
@@ -1436,11 +1176,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "controls_bg",
+                "info_bg",
                 "=",
-                "SceneWindowWidth()/2 - controls_bg.Width()/2",
+                "SceneWindowWidth() / 2 - info_bg.Width() / 2",
                 "=",
-                "controls_bg.Y()"
+                "info_bg.Y()"
               ]
             }
           ]

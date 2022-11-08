@@ -2240,10 +2240,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cellHeight": 8,
-          "cellWidth": 8,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "cellHeight": 8,
+          "cellWidth": 8,
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
