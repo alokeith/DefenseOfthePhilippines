@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8999999999999999,
+    "zoomFactor": 0.8599999999999999,
     "windowMask": true
   },
   "objectsGroups": [
@@ -4431,6 +4431,13 @@
           "target": "Storage"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Levelselect"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4795,7 +4802,7 @@
                       "parameters": [
                         "total_waves",
                         "=",
-                        "1"
+                        "3"
                       ]
                     },
                     {
@@ -4805,7 +4812,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "10"
+                        "6"
                       ]
                     }
                   ]
@@ -4843,7 +4850,7 @@
                       "parameters": [
                         "total_waves",
                         "=",
-                        "2"
+                        "3"
                       ]
                     },
                     {
@@ -4853,7 +4860,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "5"
+                        "8"
                       ]
                     }
                   ]
@@ -4901,7 +4908,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "5"
+                        "10"
                       ]
                     }
                   ]
@@ -4949,7 +4956,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "5"
+                        "10"
                       ]
                     }
                   ]
@@ -4987,7 +4994,7 @@
                       "parameters": [
                         "total_waves",
                         "=",
-                        "4"
+                        "3"
                       ]
                     },
                     {
@@ -4997,7 +5004,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "5"
+                        "10"
                       ]
                     }
                   ]
@@ -5035,7 +5042,7 @@
                       "parameters": [
                         "total_waves",
                         "=",
-                        "5"
+                        "3"
                       ]
                     },
                     {
@@ -5045,7 +5052,7 @@
                       "parameters": [
                         "enemies_per_wave",
                         "=",
-                        "5"
+                        "10"
                       ]
                     }
                   ]
@@ -7564,7 +7571,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Enemies wave 0",
+              "name": "Enemies wave 0 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -7579,6 +7586,16 @@
                         "current_wave",
                         "<=",
                         "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "game_level",
+                        "=",
+                        "1"
                       ]
                     }
                   ],
@@ -7648,11 +7665,12 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "Create"
+                                    "value": "CreateByName"
                                   },
                                   "parameters": [
                                     "",
-                                    "enemy_0",
+                                    "Grade1EnemiesGroup",
+                                    "\"enemy_0\"",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -7698,7 +7716,7 @@
                                     "enemy_0",
                                     "Pathfinding",
                                     "=",
-                                    "22"
+                                    "12"
                                   ]
                                 }
                               ]
@@ -7717,7 +7735,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Enemies wave 1",
+              "name": "Enemies wave 1 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -7732,6 +7750,16 @@
                         "current_wave",
                         "<=",
                         "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "game_level",
+                        "=",
+                        "1"
                       ]
                     }
                   ],
@@ -7871,7 +7899,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Enemies wave 2",
+              "name": "Enemies wave 2 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -7886,6 +7914,16 @@
                         "current_wave",
                         "<=",
                         "Variable(total_waves)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "game_level",
+                        "=",
+                        "1"
                       ]
                     }
                   ],

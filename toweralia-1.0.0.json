@@ -2116,6 +2116,18 @@
       "name": "g_first_play",
       "type": "string",
       "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "Variable2",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
