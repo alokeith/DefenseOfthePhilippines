@@ -199,7 +199,7 @@
       "height": 384,
       "name": "level_2",
       "tags": "",
-      "texture": "Assets\\map\\New Maps\\Level2-map-1.png",
+      "texture": "Assets\\map\\New Maps\\Level2-map-1-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -2817,6 +2817,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2827,9 +2829,7 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 25,
-          "name": "Pathfinding",
-          "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "rotateObject": false
         }
       ],
       "animations": [

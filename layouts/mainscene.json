@@ -72,21 +72,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "d51547c8-9d32-4cc9-b111-d847942379e8",
-      "width": 0,
-      "x": 384,
-      "y": 240,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 72,
       "layer": "HUD",
@@ -139,7 +124,7 @@
       "persistentUuid": "afb19091-b347-4cbb-9305-23169ec07476",
       "width": 0,
       "x": 264,
-      "y": 209,
+      "y": 208,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -584,16 +569,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "title2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\title.png",
+                  "image": "Assets\\title2-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
