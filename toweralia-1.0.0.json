@@ -2246,6 +2246,24 @@
         "name": "Assets\\map\\New Maps\\Level2-map-1-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/level3-map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\level3-map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/level3-map-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\level3-map-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
