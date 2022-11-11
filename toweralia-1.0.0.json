@@ -19,7 +19,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Defense of the Philippines",
-    "description": "",
+    "description": "A thesis project by Keith Lagos, Dekemce Duka, Ozzy Clint Marikit and Abegail Ferraren.",
     "author": "<ktlagos.student@asiancollege.edu.ph>",
     "windowWidth": 640,
     "windowHeight": 384,
@@ -57,7 +57,7 @@
     },
     "loadingScreen": {
       "backgroundColor": 0,
-      "backgroundFadeInDuration": 2,
+      "backgroundFadeInDuration": 4,
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
