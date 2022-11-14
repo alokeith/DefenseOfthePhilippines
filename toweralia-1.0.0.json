@@ -2304,7 +2304,7 @@
     {
       "name": "g_first_play",
       "type": "string",
-      "value": "0"
+      "value": "1"
     },
     {
       "folded": true,
