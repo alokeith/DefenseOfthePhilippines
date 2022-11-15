@@ -36,6 +36,9 @@
         },
         {
           "name": "enemy_gc"
+        },
+        {
+          "name": "enemy_cazadores"
         }
       ]
     },
@@ -187,7 +190,7 @@
       "height": 384,
       "name": "level_3",
       "tags": "",
-      "texture": "Assets\\map\\New Maps\\level3-map-1.png",
+      "texture": "Assets\\map\\New Maps\\level3-map-1-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -500,7 +503,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -740,7 +743,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1445,11 +1448,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"tower_1_grade_1\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":40,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAYAAACfKfiZAAAAAXNSR0IArs4c6QAAAl5JREFUWEfVWDFOAzEQ9JXUeQMvSE+FFPEAFB6AqEBKQZM8ABqKSFAhGjoQD0ARVFBQ5QUUvCB1CopDa91Yk43ts51DgauSS3Zndmd2fUlltnxVG+DXTewmOUxpMMCZf1GuoiBjTD3q9xz4dL6Q10W5SoIseANq7k72zPvXt7l/+SgikUPAth3gAozr+PbN3c/1RRYBH7gACgEmlyNHKgHXdq4c4MunsSWwc3jJnUjKnfKlJHDIkUsiRMCNWUhzAUTlDP75cGV2j861J4IGjRKIaR4CBxkhoS4vVmsHYprryjWiIlFGQJIKCTi9rXLuAO+L0GS0SiAJZeloYLheNPdVjk2JhVVEgGc7tXKJ6cSEs8nQFja4eFxxtBCRUQtVzqQ5R3EHJAlIQI6UtiOO5MkzIRLECMDlPPsgqeOzO8AV8GvlbFcg3w/ElnWgYV5rT6DSFs1tnEi4SQeqUb9XY5w82touBDTvjsDBYN9Wgk5gQgCO96ri7ghM54tqNhnWmgRMwPep5eUEMO+iXSOBNVFEjmr5NLanqOwJ9k6RBzSBRgImw0/Glpx0iKVR3sibAl8HBOB59ipngyRbay8TwFh2OQUsQZCA3ppcyNqpFXl45OrsWQAJpPKIvu73gozt6OzUYU6vb7y7IHgcc+tgQpJAz77tiD6CSwnUOrDR00mg9z22IW1HFLZmVC2DrwNeAmoKbB7oqypPedJ2PFqfCdknoSmggygLPHhA+NyKe7SUVoya82uI82czpuDWNRsrBJ/9WwJ/4A+KhCXzmxKsjepWTEgVFnupODClvSnf+QGjtQdHmoOjTQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAYAAACfKfiZAAAAAXNSR0IArs4c6QAAAatJREFUWEdjZCADyCgp/RfllwHrfP3xCZh+cu8eIxlGMZCj6b+hoR0D/62HcPvuiDMzfPn0ieHDmzckm0eyBgdu+f8gmw98RTjAgVse7JgDXx+SbB7JGkAOAFk+J82Owc/WkmHT4eMMOUvOMFgwitLHAUJ8Av8fvHzBoCAuwdAVocdQtuISA4z/7tMHkj1EsoayQCtwFKiJssDTwK3Xf8DsrvXHSDaPJA0g3y/L1GfYd+s3w+lb7+EOMFUTZHBSY2WImn6RgdRQINoBIMtTnLXAFkdbi2LkuKVHXzOAHDJn7zWSHEGSA0C+9+g8yBjvavlfnIcRHA2g4H/55T/Dwt3HGXeU2/8nNRRIdsCT9/8ZTq6+yXD7Fwc8FFTZfjCYh6ozyAgykhwNJDkAluoLOHkwomDC9y/wXEFKOiDaATAbUwXF/8uysTI8/vWbYfb7l4zofFKLY5IdACqInHj+Yjhg3xdm2hdEoJwAigYQABVAoKDGJkZKKJAcAiALQRYgxzM2MWIdQbIDiDWYWHWjDhgNgdEQGA2B0RAYDYHREBgNgdEQGA2B0RAYDQEA1ou3KSTQxkoAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"D:\\\\gd-project-toweralia-1.0.0\\\\toweralia\\\\Assets\\\\sprites\\\\tower_1\\\\New Archer-tower\\\\tower_1_grade_1-1-3.png\"],\"name\":\"tower_1_grade_1\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\archer-tower-1.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-3.png",
                   "points": [
                     {
                       "name": "top",
@@ -1740,6 +1744,11 @@
                       "name": "panel",
                       "x": 16,
                       "y": 16
+                    },
+                    {
+                      "name": "right",
+                      "x": 80.1583023071289,
+                      "y": 24.304500579833984
                     }
                   ],
                   "originPoint": {
@@ -2929,6 +2938,186 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Assets\\sprites\\enemies\\Guardia Civil\\enemy_guardiacivil-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "enemy_cazadores",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "max_hp",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "coins",
+          "type": "number",
+          "value": 30
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "cellHeight": 7.5,
+          "cellWidth": 7.5,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 0,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 25,
+          "rotateObject": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "enemy_cazadores",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1429000049829483,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-4-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-5-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-6-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-7-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5750,6 +5939,7 @@
       "colorG": 124,
       "colorR": 46,
       "creationTime": 0,
+      "folded": true,
       "name": "Tutorial",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8126,7 +8316,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl3)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8226,7 +8415,7 @@
                                   "parameters": [
                                     "",
                                     "Grade1EnemiesGroup",
-                                    "\"enemy_0\"",
+                                    "\"enemy_cazadores\"",
                                     "start_path.X()",
                                     "start_path.Y()",
                                     "\"\""
@@ -8237,7 +8426,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_cazadores",
                                     "=",
                                     "3"
                                   ]
@@ -8247,7 +8436,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_cazadores",
                                     "hp",
                                     "=",
                                     "5"
@@ -8258,7 +8447,7 @@
                                     "value": "ModVarObjet"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_cazadores",
                                     "id",
                                     "=",
                                     "RandomInRange(1,30)"
@@ -8269,10 +8458,10 @@
                                     "value": "PathfindingBehavior::MaxSpeed"
                                   },
                                   "parameters": [
-                                    "enemy_0",
+                                    "enemy_cazadores",
                                     "Pathfinding",
                                     "=",
-                                    "12"
+                                    "30"
                                   ]
                                 }
                               ]
@@ -10912,8 +11101,8 @@
                                   "parameters": [
                                     "",
                                     "tower_3_top",
-                                    "tower.PointX(\"top\")",
-                                    "tower.PointY(\"top\")",
+                                    "tower.PointX(\"right\")",
+                                    "tower.PointY(\"right\")",
                                     "\"\""
                                   ]
                                 },
@@ -12040,6 +12229,7 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Upgrade tower arrows",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12344,7 +12534,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Sell tower",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12713,6 +12902,7 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Upgrading tower - and completed upgrade",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13659,13 +13849,11 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Tower 3 Melee swords",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Grade1EnemiesGroup",
                   "conditions": [],
@@ -13896,6 +14084,7 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Delete bullets",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
