@@ -290,7 +290,7 @@
       "name": "tower",
       "persistentUuid": "4c5e6e41-6927-4794-8a28-94d373eb4c93",
       "width": 28,
-      "x": 484,
+      "x": 485,
       "y": 107,
       "zOrder": 5,
       "numberProperties": [
@@ -661,8 +661,8 @@
       "name": "tiledbackground",
       "persistentUuid": "37beb815-3d2e-434b-b5f4-b03ba4d655a1",
       "width": 3216,
-      "x": -842,
-      "y": -112,
+      "x": -855,
+      "y": -146,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -694,7 +694,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2249999999999972,
+    "zoomFactor": 1.7749999999999964,
     "windowMask": true
   }
 }

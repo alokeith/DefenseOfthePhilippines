@@ -19,7 +19,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Defense of the Philippines",
-    "description": "",
+    "description": "A thesis project by Keith Lagos, Dekemce Duka, Ozzy Clint Marikit and Abegail Ferraren.",
     "author": "<ktlagos.student@asiancollege.edu.ph>",
     "windowWidth": 640,
     "windowHeight": 384,
@@ -57,7 +57,7 @@
     },
     "loadingScreen": {
       "backgroundColor": 0,
-      "backgroundFadeInDuration": 2,
+      "backgroundFadeInDuration": 4,
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
@@ -849,168 +849,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Assets\\map\\0000-Level_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-1-6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-2-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-2-6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_3/melee-grade-3-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_3\\melee-grade-3-6.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -2246,6 +2084,483 @@
         "name": "Assets\\map\\New Maps\\Level2-map-1-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/level3-map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\level3-map.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/level3-map-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\level3-map-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-1-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-2-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/melee-grade-3-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\melee-grade-3-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archer-tower -1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archer-tower -1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archer-tower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archer-tower.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archer.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/level3-map-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\level3-map-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-2-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-3-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-4-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-5-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-6-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_guardiacivil-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_guardiacivil-7-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/obstacle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\obstacle-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/obstacle-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\obstacle-2-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
