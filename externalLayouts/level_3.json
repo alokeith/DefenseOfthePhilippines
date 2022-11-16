@@ -1048,6 +1048,36 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "name": "tiledbackground",
+      "persistentUuid": "ee642fff-618f-47e6-aca7-e77c46041478",
+      "width": 2703,
+      "x": -1987,
+      "y": 176,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "name": "tiledbackground",
+      "persistentUuid": "8a514678-d2f1-464e-91f9-74efe39f230e",
+      "width": 2703,
+      "x": -1653,
+      "y": -131,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1060,7 +1090,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.8903604071150122,
+    "zoomFactor": 0.9814374095310044,
     "windowMask": true
   }
 }
