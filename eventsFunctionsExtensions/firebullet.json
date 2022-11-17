@@ -1,7 +1,6 @@
 {
   "author": "@4ian",
   "category": "",
-  "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
   "extensionNamespace": "",
   "fullName": "Fire bullets",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/bullet.svg",
   "shortDescription": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
   "version": "0.0.4",
+  "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
   "tags": [
     "fire",
     "bullet",
@@ -30,9 +30,7 @@
           "description": "Fire a bullet toward a position",
           "fullName": "Fire a bullet toward a position",
           "functionType": "Action",
-          "group": "",
           "name": "FireTowardPosition",
-          "private": false,
           "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, toward position _PARAM5_;_PARAM6_ with speed _PARAM7_ px/s",
           "events": [
             {
@@ -101,83 +99,44 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "X position, where to create the bullet",
-              "longDescription": "",
               "name": "XPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Y position, where to create the bullet",
-              "longDescription": "",
               "name": "YPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "The bullet object",
-              "longDescription": "",
               "name": "Bullet",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "objectList"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Target X position",
-              "longDescription": "",
               "name": "TargetXPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Target Y position",
-              "longDescription": "",
               "name": "TargetYPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Speed of the bullet, in pixels per second",
-              "longDescription": "",
               "name": "Speed",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -187,9 +146,7 @@
           "description": "Fire a bullet",
           "fullName": "Fire a bullet",
           "functionType": "Action",
-          "group": "",
           "name": "Fire",
-          "private": false,
           "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, with angle _PARAM5_ and speed _PARAM6_ px/s",
           "events": [
             {
@@ -255,73 +212,39 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "X position, where to create the bullet",
-              "longDescription": "",
               "name": "XPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Y position, where to create the bullet",
-              "longDescription": "",
               "name": "YPosition",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "The bullet object",
-              "longDescription": "",
               "name": "Bullet",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "objectList"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Angle of the bullet, in degrees",
-              "longDescription": "",
               "name": "Angle",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Speed of the bullet, in pixels per second",
-              "longDescription": "",
               "name": "Speed",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -331,9 +254,7 @@
           "description": "Check if the object has just fired something.",
           "fullName": "Has just fired",
           "functionType": "Condition",
-          "group": "",
           "name": "HasJustFired",
-          "private": false,
           "sentence": "_PARAM0_ has just fired",
           "events": [
             {
@@ -377,22 +298,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             }
@@ -400,12 +312,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPreEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -427,22 +336,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             }
@@ -450,12 +350,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -476,22 +373,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             }
@@ -499,12 +387,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -535,22 +420,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FireBullet::FireBullet",
               "type": "behavior"
             }
@@ -579,7 +455,8 @@
           "hidden": true,
           "name": "HasJustFired"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
   ],
   "eventsBasedObjects": []

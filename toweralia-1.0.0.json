@@ -2561,6 +2561,556 @@
         "name": "Assets\\sprites\\obstacle-2-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archer-hud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archer-hud.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash0 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash0 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_0 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_0 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\Blank.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/wizards-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\wizards-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/melee-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\melee-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/sounds/welcome.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\welcome.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

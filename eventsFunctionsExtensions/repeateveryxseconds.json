@@ -1,7 +1,6 @@
 {
   "author": "VegeTato, arthuro555",
   "category": "",
-  "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
   "extensionNamespace": "",
   "fullName": "Repeat every X seconds",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
   "shortDescription": "This allows to trigger an event every X seconds.",
   "version": "0.1.0",
+  "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
   "tags": [
     "repeat",
     "timer",
@@ -23,9 +23,7 @@
       "description": "Triggers every X seconds.",
       "fullName": "Repeat every X seconds",
       "functionType": "Condition",
-      "group": "",
       "name": "Repeat",
-      "private": false,
       "sentence": "Repeat timer _PARAM1_ every _PARAM2_ seconds",
       "events": [
         {
@@ -87,23 +85,13 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The name of the timer to loop",
-          "longDescription": "",
           "name": "timerName",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The time in seconds between each trigger",
-          "longDescription": "",
           "name": "time",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],
@@ -113,9 +101,7 @@
       "description": "Triggers every X seconds X amount of times.",
       "fullName": "Repeat every X seconds in X number",
       "functionType": "Condition",
-      "group": "",
       "name": "RepeatXTimes",
-      "private": false,
       "sentence": "Repeat timer _PARAM1_ every _PARAM2_ seconds _PARAM3_ times",
       "events": [
         {
@@ -225,33 +211,19 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The name of the timer to loop",
-          "longDescription": "",
           "name": "timerName",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The time in seconds between each trigger",
-          "longDescription": "",
           "name": "time",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The limit of loops",
           "longDescription": "The condition will trigger at most this amount of times. Make it -1 for looping forever.",
           "name": "limit",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],
@@ -266,12 +238,9 @@
       "objectType": "",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -292,22 +261,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
               "type": "behavior"
             }
@@ -318,9 +278,7 @@
           "description": "Triggers every X seconds, where X is defined in the behavior properties.",
           "fullName": "Repeat every X seconds",
           "functionType": "Condition",
-          "group": "",
           "name": "Repeat",
-          "private": false,
           "sentence": "Recurring timer _PARAM1_ of _PARAM0_ has triggered",
           "events": [
             {
@@ -401,22 +359,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
               "type": "behavior"
             }
@@ -427,9 +376,7 @@
           "description": "Pauses a recurring timer.",
           "fullName": "Pause a recurring timer",
           "functionType": "Action",
-          "group": "",
           "name": "Pause",
-          "private": false,
           "sentence": "Pause recurring timer _PARAM1_ of _PARAM0_",
           "events": [
             {
@@ -450,22 +397,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
               "type": "behavior"
             }
@@ -476,9 +414,7 @@
           "description": "Resumes a paused recurring timer.",
           "fullName": "Resume a recurring timer",
           "functionType": "Action",
-          "group": "",
           "name": "Resume",
-          "private": false,
           "sentence": "Resume recurring timer _PARAM1_ of _PARAM0_",
           "events": [
             {
@@ -499,22 +435,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
               "type": "behavior"
             }
@@ -525,9 +452,7 @@
           "description": "Allows to trigger the recurring timer X times again.",
           "fullName": "Reset the limit",
           "functionType": "Action",
-          "group": "",
           "name": "ResetLimit",
-          "private": false,
           "sentence": "Allow to trigger the recurring timer _PARAM1_ of _PARAM0_ X times again",
           "events": [
             {
@@ -550,22 +475,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
               "type": "behavior"
             }
@@ -614,7 +530,8 @@
           "hidden": true,
           "name": "Counter"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
   ],
   "eventsBasedObjects": []

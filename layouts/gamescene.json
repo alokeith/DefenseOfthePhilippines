@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9199999999999999,
+    "zoomFactor": 1.0604999999999978,
     "windowMask": true
   },
   "objectsGroups": [
@@ -178,7 +178,7 @@
       "height": 384,
       "name": "level_4",
       "tags": "",
-      "texture": "Assets\\map\\0003-Level_3.png",
+      "texture": "Assets\\map\\Blank.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -263,79 +263,58 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -350,148 +329,89 @@
               "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-5.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-6.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1416,8 +1336,8 @@
                   "points": [
                     {
                       "name": "top",
-                      "x": 16,
-                      "y": 4
+                      "x": 15,
+                      "y": 0
                     },
                     {
                       "name": "panel",
@@ -1457,8 +1377,8 @@
                   "points": [
                     {
                       "name": "top",
-                      "x": 16,
-                      "y": 4
+                      "x": 15,
+                      "y": 8
                     },
                     {
                       "name": "panel",
@@ -1747,20 +1667,20 @@
                     },
                     {
                       "name": "right",
-                      "x": 80.1583023071289,
-                      "y": 24.304500579833984
+                      "x": 76,
+                      "y": 4
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -1774,11 +1694,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_3\\tower_3.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-6.png",
                   "points": [
                     {
                       "name": "top",
@@ -1787,20 +1707,20 @@
                     },
                     {
                       "name": "panel",
-                      "x": 16,
-                      "y": 16
+                      "x": 23.020000457763672,
+                      "y": 20.28000259399414
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 44
+                    "y": 58
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 44
+                    "y": 58
                   },
                   "customCollisionMask": []
                 }
@@ -1926,7 +1846,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_1_btn-1.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\archer-hud.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1951,11 +1871,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_2_btn-1.png",
+                  "image": "Assets\\sprites\\hud\\wizards-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1980,11 +1900,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_3_btn-1.png",
+                  "image": "Assets\\sprites\\hud\\melee-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5939,7 +5859,6 @@
       "colorG": 124,
       "colorR": 46,
       "creationTime": 0,
-      "folded": true,
       "name": "Tutorial",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6261,7 +6180,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"Welcome to the tower defense template, use your mouse to drag and drop towers on the tower locations.\nRight-click on a tower to open its upgrade panel, then select an action to take.\nYou can upgrade the tower, upgrade the bullets and their units, or sell the tower.\""
+                    "\"Welcome to Defense of the Philippines. In this game you have to build defensive structures in order to defend locations against the Spanish, the Americans, and the Japanese enemies. There will be two types of basic structures on every level and one hero character.\""
                   ]
                 }
               ],
@@ -6287,7 +6206,7 @@
                       },
                       "parameters": [
                         "",
-                        "Assets\\sounds\\welcome-male-6.wav",
+                        "Assets\\sounds\\welcome.wav",
                         "11",
                         "",
                         "100",
@@ -6345,7 +6264,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"In this area you are going to use archer towers, try to place some towers on the field, so that the archers can stop the incoming enemies.\""
+                    "\"In this level the basic structure will be the archers while the hero will be \nLapu-lapu.\""
                   ]
                 }
               ],
@@ -6374,7 +6293,7 @@
                         "Assets\\sounds\\tutorial-archers.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -6429,7 +6348,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"Now it's up to the wizards, add a few wizard towers to stop the enemy horde. Also use some archer towers and between them they will be unstoppable.\""
+                    "\"          Level 2\""
                   ]
                 }
               ],
@@ -6458,7 +6377,7 @@
                         "Assets\\sounds\\tutorial-wizards.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -6513,7 +6432,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"You're doing very well, now it's the turn of the melee towers, these towers create a melee-type unit that can slow down enemies, ideal for combining with archers and wizards.\""
+                    "\"          Level 3\""
                   ]
                 }
               ],
@@ -6542,7 +6461,7 @@
                         "Assets\\sounds\\tutorial-melee.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -14499,7 +14418,7 @@
                               "parameters": [
                                 "max_level_reached",
                                 "=",
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -14509,7 +14428,7 @@
                               "parameters": [
                                 "game_level",
                                 "=",
-                                "7"
+                                "4"
                               ]
                             }
                           ]
@@ -14538,7 +14457,7 @@
                           "parameters": [
                             "game_level",
                             "<",
-                            "7"
+                            "4"
                           ]
                         }
                       ],
