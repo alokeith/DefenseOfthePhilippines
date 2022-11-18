@@ -111,7 +111,7 @@
       "height": 384,
       "name": "level_1",
       "tags": "",
-      "texture": "Assets\\map\\0000-Level_0.png",
+      "texture": "Assets\\map\\New Maps\\level3-map-1-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.0604999999999978,
+    "zoomFactor": 1.1982499999999983,
     "windowMask": true
   },
   "objectsGroups": [
@@ -326,7 +326,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.15000000596046448,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1409,11 +1409,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\archer-tower-2.png",
+                  "image": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-0.png",
                   "points": [
                     {
                       "name": "top",
@@ -1449,11 +1449,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\archer-tower-3.png",
+                  "image": "Assets\\sprites\\tower_1\\tower_1_grade_3-1.png",
                   "points": [
                     {
                       "name": "top",
@@ -1489,11 +1489,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\tower_selector2.png",
+                  "image": "Assets\\sprites\\tower_1\\wizards-1.png",
                   "points": [
                     {
                       "name": "top",
@@ -1529,11 +1529,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_2\\tower_2.png",
+                  "image": "Assets\\sprites\\tower_2\\tower_2_grade_1-1.png",
                   "points": [
                     {
                       "name": "top",
@@ -1569,7 +1569,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1609,7 +1609,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -11206,7 +11206,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Select tower and do? upgrade / sell",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",

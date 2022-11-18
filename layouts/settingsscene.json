@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1166666625976556,
+    "zoomFactor": 1.130416662597656,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -301,7 +301,7 @@
       "height": 384,
       "name": "level_1",
       "tags": "",
-      "texture": "Assets\\map\\0000-Level_0.png",
+      "texture": "Assets\\map\\New Maps\\level3-map-1-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
