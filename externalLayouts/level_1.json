@@ -100,8 +100,8 @@
       "name": "tower",
       "persistentUuid": "0d9dfd7e-d691-4e56-8ff7-5959cd372722",
       "width": 0,
-      "x": 455,
-      "y": 250,
+      "x": 456,
+      "y": 254,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -166,8 +166,8 @@
       "name": "tower",
       "persistentUuid": "e5b633c4-49b3-49b1-a18b-71115a8f7a8c",
       "width": 0,
-      "x": 88,
-      "y": 109,
+      "x": 115,
+      "y": 124,
       "zOrder": 9,
       "numberProperties": [
         {
@@ -191,40 +191,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "dadb5d2a-7399-46fa-951f-4881abd35518",
-      "width": 0,
-      "x": 163,
-      "y": 249,
-      "zOrder": 9,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "archers"
-        }
-      ]
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 256,
       "layer": "",
       "name": "tiledbackground",
       "persistentUuid": "3b5f1b28-340d-4b56-a63a-2499659ce187",
       "width": 1280,
-      "x": -54,
-      "y": 150,
+      "x": -51,
+      "y": 178,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,8 +212,8 @@
       "name": "tiledbackground",
       "persistentUuid": "5cacb911-33bd-4b22-888d-23ce28ba275e",
       "width": 1280,
-      "x": -59,
-      "y": -119,
+      "x": -58,
+      "y": -118,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,8 +227,8 @@
       "name": "tower",
       "persistentUuid": "bf8bbd6e-281a-4cd7-8c76-96f448cf3530",
       "width": 0,
-      "x": 321,
-      "y": 148,
+      "x": 320,
+      "y": 153,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,6 +329,32 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "7e636779-da59-4c50-a4a2-00322f91a093",
+      "width": 32,
+      "x": 168,
+      "y": 239,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "melee"
+        }
+      ]
     }
   ],
   "editionSettings": {
@@ -367,7 +367,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.9133020462989747,
+    "zoomFactor": 1.1115520462989736,
     "windowMask": true
   }
 }

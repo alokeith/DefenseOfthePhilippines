@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9199999999999999,
+    "zoomFactor": 1.1982499999999983,
     "windowMask": true
   },
   "objectsGroups": [
@@ -62,6 +62,12 @@
         },
         {
           "name": "txt_paused"
+        },
+        {
+          "name": "txt_hero"
+        },
+        {
+          "name": "txt_units"
         }
       ]
     },
@@ -178,7 +184,7 @@
       "height": 384,
       "name": "level_4",
       "tags": "",
-      "texture": "Assets\\map\\0003-Level_3.png",
+      "texture": "Assets\\map\\Blank.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -194,7 +200,17 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Sepia",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 0.2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
@@ -214,7 +230,7 @@
       "height": 384,
       "name": "level_1",
       "tags": "",
-      "texture": "Assets\\map\\New Maps\\Level1-map - Copy.png",
+      "texture": "Assets\\map\\New Maps\\Level1-map-Copy-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 640,
       "variables": [],
@@ -263,79 +279,58 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -347,151 +342,92 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.15000000596046448,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-5.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-1-6.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -503,79 +439,41 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-2-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -587,151 +485,92 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.15000000596046448,
+              "timeBetweenFrames": 0.12999999523162842,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-2-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-5.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-3-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-2-6.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-4-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-5-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -743,79 +582,41 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\idle_melee_grade_3-1-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-2.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\idle_melee_grade_3-2-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -830,148 +631,89 @@
               "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-3.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-1-17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-4.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-2-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-5.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-3-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Assets\\sprites\\tower_3\\melee-grade-3-6.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-4-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 16
+                    "x": 0,
+                    "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-5-13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1412,12 +1154,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\tower_selector.png",
+                  "image": "Assets\\sprites\\tower_1\\archers-1-3.png",
                   "points": [
                     {
                       "name": "top",
                       "x": 16,
-                      "y": 4
+                      "y": 3
                     },
                     {
                       "name": "panel",
@@ -1428,13 +1170,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 32
+                    "y": 40
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 32
+                    "y": 40
                   },
                   "customCollisionMask": []
                 }
@@ -1448,17 +1190,16 @@
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"tower_1_grade_1\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":40,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAYAAACfKfiZAAAAAXNSR0IArs4c6QAAAl5JREFUWEfVWDFOAzEQ9JXUeQMvSE+FFPEAFB6AqEBKQZM8ABqKSFAhGjoQD0ARVFBQ5QUUvCB1CopDa91Yk43ts51DgauSS3Zndmd2fUlltnxVG+DXTewmOUxpMMCZf1GuoiBjTD3q9xz4dL6Q10W5SoIseANq7k72zPvXt7l/+SgikUPAth3gAozr+PbN3c/1RRYBH7gACgEmlyNHKgHXdq4c4MunsSWwc3jJnUjKnfKlJHDIkUsiRMCNWUhzAUTlDP75cGV2j861J4IGjRKIaR4CBxkhoS4vVmsHYprryjWiIlFGQJIKCTi9rXLuAO+L0GS0SiAJZeloYLheNPdVjk2JhVVEgGc7tXKJ6cSEs8nQFja4eFxxtBCRUQtVzqQ5R3EHJAlIQI6UtiOO5MkzIRLECMDlPPsgqeOzO8AV8GvlbFcg3w/ElnWgYV5rT6DSFs1tnEi4SQeqUb9XY5w82touBDTvjsDBYN9Wgk5gQgCO96ri7ghM54tqNhnWmgRMwPep5eUEMO+iXSOBNVFEjmr5NLanqOwJ9k6RBzSBRgImw0/Glpx0iKVR3sibAl8HBOB59ipngyRbay8TwFh2OQUsQZCA3ppcyNqpFXl45OrsWQAJpPKIvu73gozt6OzUYU6vb7y7IHgcc+tgQpJAz77tiD6CSwnUOrDR00mg9z22IW1HFLZmVC2DrwNeAmoKbB7oqypPedJ2PFqfCdknoSmggygLPHhA+NyKe7SUVoya82uI82czpuDWNRsrBJ/9WwJ/4A+KhCXzmxKsjepWTEgVFnupODClvSnf+QGjtQdHmoOjTQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAYAAACfKfiZAAAAAXNSR0IArs4c6QAAAatJREFUWEdjZCADyCgp/RfllwHrfP3xCZh+cu8eIxlGMZCj6b+hoR0D/62HcPvuiDMzfPn0ieHDmzckm0eyBgdu+f8gmw98RTjAgVse7JgDXx+SbB7JGkAOAFk+J82Owc/WkmHT4eMMOUvOMFgwitLHAUJ8Av8fvHzBoCAuwdAVocdQtuISA4z/7tMHkj1EsoayQCtwFKiJssDTwK3Xf8DsrvXHSDaPJA0g3y/L1GfYd+s3w+lb7+EOMFUTZHBSY2WImn6RgdRQINoBIMtTnLXAFkdbi2LkuKVHXzOAHDJn7zWSHEGSA0C+9+g8yBjvavlfnIcRHA2g4H/55T/Dwt3HGXeU2/8nNRRIdsCT9/8ZTq6+yXD7Fwc8FFTZfjCYh6ozyAgykhwNJDkAluoLOHkwomDC9y/wXEFKOiDaATAbUwXF/8uysTI8/vWbYfb7l4zofFKLY5IdACqInHj+Yjhg3xdm2hdEoJwAigYQABVAoKDGJkZKKJAcAiALQRYgxzM2MWIdQbIDiDWYWHWjDhgNgdEQGA2B0RAYDYHREBgNgdEQGA2B0RAYDQEA1ou3KSTQxkoAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"D:\\\\gd-project-toweralia-1.0.0\\\\toweralia\\\\Assets\\\\sprites\\\\tower_1\\\\New Archer-tower\\\\tower_1_grade_1-1-3.png\"],\"name\":\"tower_1_grade_1\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-3.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1.png",
                   "points": [
                     {
                       "name": "top",
                       "x": 16,
-                      "y": 4
+                      "y": -32
                     },
                     {
                       "name": "panel",
@@ -1469,13 +1210,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -1489,16 +1230,16 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\archer-tower-2.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_2-1-5.png",
                   "points": [
                     {
                       "name": "top",
                       "x": 16,
-                      "y": 4
+                      "y": -32
                     },
                     {
                       "name": "panel",
@@ -1509,13 +1250,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -1529,16 +1270,16 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\archer-tower-3.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_3-1-1.png",
                   "points": [
                     {
-                      "name": "top",
+                      "name": "top ",
                       "x": 16,
-                      "y": 4
+                      "y": -32
                     },
                     {
                       "name": "panel",
@@ -1549,13 +1290,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -1569,11 +1310,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_1\\tower_selector2.png",
+                  "image": "Assets\\sprites\\tower_1\\wizards-1-1.png",
                   "points": [
                     {
                       "name": "top",
@@ -1609,11 +1350,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_2\\tower_2.png",
+                  "image": "Assets\\sprites\\tower_2\\tower_2_grade_1-1.png",
                   "points": [
                     {
                       "name": "top",
@@ -1649,7 +1390,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1689,7 +1430,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1729,7 +1470,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1738,7 +1479,7 @@
                     {
                       "name": "top",
                       "x": 16,
-                      "y": -8
+                      "y": -9
                     },
                     {
                       "name": "panel",
@@ -1746,21 +1487,31 @@
                       "y": 16
                     },
                     {
-                      "name": "right",
-                      "x": 80.1583023071289,
-                      "y": 24.304500579833984
+                      "name": "1",
+                      "x": 76,
+                      "y": -17
+                    },
+                    {
+                      "name": "2",
+                      "x": 43,
+                      "y": 40
+                    },
+                    {
+                      "name": "3",
+                      "x": 50,
+                      "y": -15
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 40
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -1774,11 +1525,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\tower_3\\tower_3.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-6.png",
                   "points": [
                     {
                       "name": "top",
@@ -1787,20 +1538,20 @@
                     },
                     {
                       "name": "panel",
-                      "x": 16,
-                      "y": 16
+                      "x": 23.020000457763672,
+                      "y": 20.28000259399414
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 44
+                    "y": 58
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 44
+                    "y": 58
                   },
                   "customCollisionMask": []
                 }
@@ -1926,7 +1677,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_1_btn-1.png",
+                  "image": "Assets\\sprites\\tower_1\\New Archer-tower\\archers-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1951,11 +1702,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_2_btn-1.png",
+                  "image": "Assets\\sprites\\hud\\wizards-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1980,11 +1731,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\sprites\\hud\\tower_3_btn-1.png",
+                  "image": "Assets\\sprites\\hud\\melee-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3323,6 +3074,48 @@
       "string": "Coins: 00000",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
       "characterSize": 10,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_hero",
+      "smoothed": true,
+      "tags": "TEXT",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hero",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 7,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_units",
+      "smoothed": true,
+      "tags": "TEXT",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Units",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 7,
       "color": {
         "b": 28,
         "g": 231,
@@ -4766,6 +4559,47 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "enemyHealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "health",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "health-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4823,15 +4657,6 @@
             },
             {
               "type": {
-                "value": "ChangeLayer"
-              },
-              "parameters": [
-                "cursor",
-                "\"HUD\""
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -4883,6 +4708,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Music",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5483,7 +5309,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Towers setup",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5939,7 +5764,6 @@
       "colorG": 124,
       "colorR": 46,
       "creationTime": 0,
-      "folded": true,
       "name": "Tutorial",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6261,7 +6085,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"Welcome to the tower defense template, use your mouse to drag and drop towers on the tower locations.\nRight-click on a tower to open its upgrade panel, then select an action to take.\nYou can upgrade the tower, upgrade the bullets and their units, or sell the tower.\""
+                    "\"Welcome to Defense of the Philippines. In this game you have to build defensive structures in order to defend locations against the Spanish, the Americans, and the Japanese enemies. There will be two types of basic structures on every level and one hero character.\""
                   ]
                 }
               ],
@@ -6287,7 +6111,7 @@
                       },
                       "parameters": [
                         "",
-                        "Assets\\sounds\\welcome-male-6.wav",
+                        "Assets\\sounds\\welcome.wav",
                         "11",
                         "",
                         "100",
@@ -6345,7 +6169,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"In this area you are going to use archer towers, try to place some towers on the field, so that the archers can stop the incoming enemies.\""
+                    "\"In this level the basic structure will be the archers while the hero will be \nLapu-lapu. Drag the tower cards to their designated placements marked by their corresponding color.\n\nExample: The green tower cards go to the tower placement with the green board.\""
                   ]
                 }
               ],
@@ -6374,7 +6198,7 @@
                         "Assets\\sounds\\tutorial-archers.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -6429,7 +6253,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"Now it's up to the wizards, add a few wizard towers to stop the enemy horde. Also use some archer towers and between them they will be unstoppable.\""
+                    "\"          Level 2\""
                   ]
                 }
               ],
@@ -6458,7 +6282,7 @@
                         "Assets\\sounds\\tutorial-wizards.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -6513,7 +6337,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"You're doing very well, now it's the turn of the melee towers, these towers create a melee-type unit that can slow down enemies, ideal for combining with archers and wizards.\""
+                    "\"          Level 3\""
                   ]
                 }
               ],
@@ -6542,7 +6366,7 @@
                         "Assets\\sounds\\tutorial-melee.wav",
                         "11",
                         "",
-                        "100",
+                        "0",
                         "1"
                       ]
                     }
@@ -6729,6 +6553,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Texts",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6787,6 +6612,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Positions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6853,6 +6679,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Z-order",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6931,6 +6758,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7323,7 +7151,7 @@
                     "value": "Egal"
                   },
                   "parameters": [
-                    "Count(Grade1EnemiesGroup",
+                    "Count(Grade1EnemiesGroup)",
                     "=",
                     "0"
                   ]
@@ -7986,7 +7814,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8151,7 +7978,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8480,7 +8306,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl4)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9963,6 +9788,11 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -10407,15 +10237,6 @@
                             "tower_btn",
                             "\"wizards\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimationName"
-                          },
-                          "parameters": [
-                            "tower_btn",
-                            "\"melee\""
-                          ]
                         }
                       ]
                     }
@@ -10446,28 +10267,9 @@
                     "=",
                     "2"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "tower_btn",
-                    "\"melee\""
-                  ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "tower_btn",
-                    ""
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
@@ -11024,7 +10826,7 @@
                                     "tower_2_top",
                                     "grade",
                                     "=",
-                                    "tower.Variable(grade)"
+                                    "Variable(game_level)"
                                   ]
                                 },
                                 {
@@ -11101,8 +10903,8 @@
                                   "parameters": [
                                     "",
                                     "tower_3_top",
-                                    "tower.PointX(\"right\")",
-                                    "tower.PointY(\"right\")",
+                                    "tower.PointX(ToString(Variable(game_level)))",
+                                    "tower.PointY(ToString(Variable(game_level)))",
                                     "\"\""
                                   ]
                                 },
@@ -11145,7 +10947,7 @@
                                     "tower_3_top",
                                     "grade",
                                     "=",
-                                    "tower.Variable(grade)"
+                                    "Variable(game_level)"
                                   ]
                                 },
                                 {
@@ -11154,8 +10956,24 @@
                                   },
                                   "parameters": [
                                     "tower",
-                                    "\"tower_3_grade_\" + tower.VariableString(grade)"
+                                    "\"tower_3_grade_\" + ToString(Variable(game_level))"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetAnimationName"
+                                  },
+                                  "parameters": [
+                                    "tower_3_top",
+                                    "\"idle_melee_grade_\" + ToString(Variable(game_level))"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": []
                                 }
                               ]
                             }
@@ -11214,9 +11032,9 @@
                           "parameters": [
                             "tower_btn",
                             "=",
-                            "12",
+                            "99",
                             "=",
-                            "320"
+                            "326"
                           ]
                         }
                       ]
@@ -11242,9 +11060,9 @@
                           "parameters": [
                             "tower_btn",
                             "=",
-                            "76",
+                            "160",
                             "=",
-                            "320"
+                            "326\n"
                           ]
                         }
                       ]
@@ -11270,9 +11088,9 @@
                           "parameters": [
                             "tower_btn",
                             "=",
-                            "140",
+                            "17",
                             "=",
-                            "320"
+                            "326"
                           ]
                         }
                       ]
@@ -11287,7 +11105,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Select tower and do? upgrade / sell",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11327,11 +11144,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
-                        "Right"
+                        "Left"
                       ]
                     },
                     {
@@ -11973,7 +11790,7 @@
                     },
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
@@ -12229,7 +12046,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Upgrade tower arrows",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12483,7 +12299,7 @@
                                         "tower_3_top",
                                         "sword_grade",
                                         "+",
-                                        "1"
+                                        "Variable(game_level)"
                                       ]
                                     }
                                   ]
@@ -12534,6 +12350,7 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Sell tower",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12902,7 +12719,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Upgrading tower - and completed upgrade",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13197,7 +13013,7 @@
                               },
                               "parameters": [
                                 "tower",
-                                "\"tower_3_grade_\" + tower.VariableString(grade)"
+                                "\"tower_3_grade_\" + ToString(Variable(game_level))"
                               ]
                             }
                           ],
@@ -13601,7 +13417,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Tower 2 wizards shoot",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14084,7 +13899,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Delete bullets",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14250,6 +14064,152 @@
                             "1"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Always"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "enemyHealthBar",
+                        "Grade1EnemiesGroup.X()",
+                        "Grade1EnemiesGroup.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeHeight"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Grade1EnemiesGroup",
+                        "enemyHealthBar"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "enemyHealthBar",
+                        "Grade1EnemiesGroup",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "Grade1EnemiesGroup.Variable(hp)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "Grade1EnemiesGroup.X()",
+                        "=",
+                        "Grade1EnemiesGroup.Y()-15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Grade1EnemiesGroup",
+                        "hp",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Grade1EnemiesGroup",
+                        "end_path",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        ""
                       ]
                     }
                   ]
@@ -14480,7 +14440,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "This is just for this template you have to do your own level system logic to send the player to the end of the game.",
+                      "comment": "End scene",
                       "comment2": ""
                     },
                     {
@@ -14499,7 +14459,7 @@
                               "parameters": [
                                 "max_level_reached",
                                 "=",
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -14509,7 +14469,7 @@
                               "parameters": [
                                 "game_level",
                                 "=",
-                                "7"
+                                "4"
                               ]
                             }
                           ]
@@ -14538,7 +14498,7 @@
                           "parameters": [
                             "game_level",
                             "<",
-                            "7"
+                            "4"
                           ]
                         }
                       ],

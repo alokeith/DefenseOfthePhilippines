@@ -1,7 +1,6 @@
 {
   "author": "UlisesFreitas<ulises.freitas@gmail.com>",
   "category": "",
-  "description": "Wait a determinate number of seconds to perform the next action.",
   "extensionNamespace": "",
   "fullName": "Wait",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/account-clock-outline.svg",
   "shortDescription": "Wait for a sec!",
   "version": "1.0.0",
+  "description": "Wait a determinate number of seconds to perform the next action.",
   "tags": [
     "Wait",
     "Delay"
@@ -21,9 +21,7 @@
       "description": "Trigger the wait condition",
       "fullName": "Wait action",
       "functionType": "Action",
-      "group": "",
       "name": "WaitAction",
-      "private": false,
       "sentence": "Waiting... _PARAM1_",
       "events": [
         {
@@ -63,13 +61,8 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Set a name for Wait timer ",
-          "longDescription": "",
           "name": "WaitTimerName",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         }
       ],
@@ -79,9 +72,7 @@
       "description": "Wait to trigger an action",
       "fullName": "Waiting",
       "functionType": "Condition",
-      "group": "",
       "name": "WaitCondition",
-      "private": false,
       "sentence": "Wait the action by _PARAM1_ for the timer _PARAM2_",
       "events": [
         {
@@ -172,23 +163,13 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Set delay timer name",
-          "longDescription": "",
           "name": "WaitTimerName",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Delay Time",
-          "longDescription": "",
           "name": "WaitTime",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],

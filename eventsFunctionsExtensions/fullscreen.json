@@ -1,7 +1,6 @@
 {
   "author": "Ulises Freitas <ulises.freitas@gmail.com>",
   "category": "",
-  "description": "Set the game at fullscreen",
   "extensionNamespace": "",
   "fullName": "Fullscreen",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/fullscreen.svg",
   "shortDescription": "Set the game at fullscreen",
   "version": "1.0.0",
+  "description": "Set the game at fullscreen",
   "tags": [
     "fullscreen"
   ],
@@ -20,9 +20,7 @@
       "description": "Press f to set fullscreen",
       "fullName": "Set the game at fullscreen",
       "functionType": "Action",
-      "group": "",
       "name": "Fullscreen",
-      "private": false,
       "sentence": "Press F to fullcreen",
       "events": [
         {

@@ -22,7 +22,7 @@
     "description": "A thesis project by Keith Lagos, Dekemce Duka, Ozzy Clint Marikit and Abegail Ferraren.",
     "author": "<ktlagos.student@asiancollege.edu.ph>",
     "windowWidth": 640,
-    "windowHeight": 384,
+    "windowHeight": 380,
     "latestCompilationDirectory": "C:\\Users\\ACER\\Desktop\\TowerDefense",
     "maxFPS": 0,
     "minFPS": 20,
@@ -619,24 +619,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_2/tower_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_2\\tower_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_2/tower_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_2\\tower_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Assets/sprites/hud/tower_1_btn-1.png",
         "kind": "image",
         "metadata": "",
@@ -722,15 +704,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Assets\\sprites\\hud\\arrows_upgrade-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_1/tower_selector3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_1\\tower_selector3.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -2294,42 +2267,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-0.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-3.png",
         "kind": "image",
         "metadata": "",
@@ -2561,6 +2498,2581 @@
         "name": "Assets\\sprites\\obstacle-2-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archer-hud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archer-hud.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/tower_3_grade_1-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\tower_3_grade_1-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_slash0 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_slash0 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_0 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_0 - Copy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/lapu_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\lapu_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-3-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-4-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/attack_melee_grade_1-5-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-5-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/attack_melee_grade_1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\attack_melee_grade_1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/lapu_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\lapu_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Lapu Tower/New folder/idle_melee_grade_1-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\New folder\\idle_melee_grade_1-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\Blank.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/wizards-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\wizards-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/sounds/welcome.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\sounds\\welcome.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_2/tower_2_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_2\\tower_2_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_2/tower_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_2\\tower_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_2/tower_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_2\\tower_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/wizards-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\wizards-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/map/New Maps/Level1-map-Copy-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\map\\New Maps\\Level1-map-Copy-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/idle_melee_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\idle_melee_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/idle_melee_grade_2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\idle_melee_grade_2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_2-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_2-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_2-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_2-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-8-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-8-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-6-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-6-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-7-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-7-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-8-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-8-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-9-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle_melee_grade_3-2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_melee_grade_3-2-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-1-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-1-17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-2-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-2-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-3-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-3-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-4-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-4-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack_melee_grade_3-5-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_melee_grade_3-5-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_3-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/archers-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\archers-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/archers-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\archers-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_1_grade_2-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_1_grade_2-1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_1-1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_3-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/archers-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\archers-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/archers-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\archers-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_2-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_2-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_3-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tower_1_grade_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tower_1_grade_3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/archers-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\archers-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/wizards-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\wizards-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/wizards-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\wizards-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/tower_selector3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\tower_selector3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archers-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archers-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/wizards-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\wizards-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/archers-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\archers-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/wizards-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\wizards-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/melee-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\melee-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/idle_melee_grade_3-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\idle_melee_grade_3-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/idle_melee_grade_3-2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\idle_melee_grade_3-2-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/attack_melee_grade_3-1-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-1-17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/attack_melee_grade_3-2-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-2-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/attack_melee_grade_3-3-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-3-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/attack_melee_grade_3-4-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-4-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Kilat Tower/attack_melee_grade_3-5-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\attack_melee_grade_3-5-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower-1-grade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower-1-grade-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower-1-grade-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower-1-grade-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower-1-grade-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower-1-grade-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_1/New Archer-tower/tower_1_grade_2-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_2-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-2-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "health-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "health-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "health-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "health-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "health-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "health-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/orig_scroll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\orig_scroll.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
