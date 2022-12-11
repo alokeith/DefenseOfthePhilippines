@@ -4580,7 +4580,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite-1.png",
+                  "image": "health-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14170,6 +14170,35 @@
                         "hp",
                         "<=",
                         "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Grade1EnemiesGroup",
+                        "end_path",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ],
