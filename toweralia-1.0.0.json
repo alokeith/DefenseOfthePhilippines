@@ -5118,6 +5118,16 @@
         "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores0.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "../../../Desktop/tutorial_archers.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\tutorial_archers.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

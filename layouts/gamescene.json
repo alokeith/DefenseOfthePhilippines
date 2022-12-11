@@ -6195,7 +6195,7 @@
                       },
                       "parameters": [
                         "",
-                        "Assets\\sounds\\tutorial-archers.wav",
+                        "..\\..\\..\\Desktop\\tutorial_archers.wav",
                         "11",
                         "",
                         "100",
