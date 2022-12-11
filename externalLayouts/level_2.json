@@ -70,29 +70,8 @@
       "name": "tower",
       "persistentUuid": "7593cc2f-799b-4657-ab8d-1e7ed033371a",
       "width": 24,
-      "x": 140,
-      "y": 140,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "archers"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "",
-      "name": "tower",
-      "persistentUuid": "522c44e1-32ae-4b56-a622-9c0e501b4bac",
-      "width": 29,
-      "x": 376.5,
-      "y": 138,
+      "x": 141,
+      "y": 146,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -264,13 +243,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 30,
+      "height": 28,
       "layer": "",
       "name": "tower",
       "persistentUuid": "5c24c0f5-ad58-4649-894d-a6aeb5334102",
-      "width": 30,
-      "x": 568,
-      "y": 172,
+      "width": 28,
+      "x": 567,
+      "y": 178.5,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -647,7 +626,7 @@
       "persistentUuid": "3c808969-eb03-444c-941d-02895b49bb87",
       "width": 2949,
       "x": -516,
-      "y": 133,
+      "y": 159,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -682,6 +661,32 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 27,
+      "layer": "",
+      "name": "tower",
+      "persistentUuid": "2389a795-ff39-4fec-b03e-a781b73fcda7",
+      "width": 27,
+      "x": 376.5,
+      "y": 146.125,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "melee"
+        }
+      ]
     }
   ],
   "editionSettings": {
@@ -694,7 +699,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.7749999999999964,
+    "zoomFactor": 1.1939999999999977,
     "windowMask": true
   }
 }

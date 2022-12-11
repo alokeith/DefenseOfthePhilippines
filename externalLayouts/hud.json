@@ -10,8 +10,8 @@
       "name": "tower_btn",
       "persistentUuid": "91f467ad-c417-4ee3-9594-3252bf20cefd",
       "width": 0,
-      "x": 140,
-      "y": 320,
+      "x": 160,
+      "y": 325,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -135,8 +135,8 @@
       "name": "txt_coins",
       "persistentUuid": "aef33e10-1b0e-486b-9b70-3ecb6b5a9b47",
       "width": 128,
-      "x": 524,
-      "y": 348,
+      "x": 520,
+      "y": 355,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,8 +165,8 @@
       "name": "txt_enemies_escaped",
       "persistentUuid": "c030ab23-63e5-4674-aec2-16e383163e66",
       "width": 128,
-      "x": 384,
-      "y": 348,
+      "x": 387,
+      "y": 353,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,7 +181,7 @@
       "persistentUuid": "09be5fbd-7631-46e5-9c56-e879440a0d01",
       "width": 0,
       "x": 0,
-      "y": 304,
+      "y": 301,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,8 +240,8 @@
       "name": "tower_btn",
       "persistentUuid": "84755dd4-4abb-4db6-a1e5-6139ba298095",
       "width": 0,
-      "x": 12,
-      "y": 320,
+      "x": 25,
+      "y": 325,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,8 +290,8 @@
       "name": "tower_btn",
       "persistentUuid": "00a50988-7130-4dd7-ab3e-6dd6dfc663df",
       "width": 0,
-      "x": 76,
-      "y": 320,
+      "x": 97,
+      "y": 325,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -299,6 +299,36 @@
           "value": 1
         }
       ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HUD",
+      "name": "txt_hero",
+      "persistentUuid": "d9f67b95-5bc3-48f1-ac9a-9c52418c731a",
+      "width": 0,
+      "x": 18,
+      "y": 313,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HUD",
+      "name": "txt_units",
+      "persistentUuid": "88336ca1-6cfa-4701-b9ba-9e8cbf2d1ff8",
+      "width": 0,
+      "x": 100,
+      "y": 313,
+      "zOrder": 10,
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -313,7 +343,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8480832031249941,
+    "zoomFactor": 1.2325026763588174,
     "windowMask": true
   }
 }
