@@ -1177,7 +1177,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Hero",
+      "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
       "characterSize": 10,
       "color": {
@@ -1198,7 +1198,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Enemy",
+      "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
       "characterSize": 10,
       "color": {
@@ -1675,6 +1675,26 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HeroBanner",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "EnemyBanner",
+                "=",
+                "\"\""
+              ]
             }
           ],
           "events": [
@@ -1796,6 +1816,26 @@
                     "lapulapu",
                     "=",
                     "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroBanner",
+                    "=",
+                    "\"Hero\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyBanner",
+                    "=",
+                    "\"Enemy\""
                   ]
                 }
               ]
@@ -1919,6 +1959,26 @@
                     "=",
                     "60"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyBanner",
+                    "=",
+                    "\"Enemy\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroBanner",
+                    "=",
+                    "\"Hero\""
+                  ]
                 }
               ]
             },
@@ -1965,7 +2025,7 @@
                   "parameters": [
                     "",
                     "LeonKilat",
-                    "305",
+                    "290",
                     "245",
                     ""
                   ]
@@ -2040,6 +2100,26 @@
                     "EnemyName",
                     "=",
                     "\"Cazadores\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyBanner",
+                    "=",
+                    "\"Enemy\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroBanner",
+                    "=",
+                    "\"Hero\""
                   ]
                 }
               ]
@@ -2162,6 +2242,26 @@
                     "Spaniard",
                     "=",
                     "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyBanner",
+                    "=",
+                    "\"Enemy\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroBanner",
+                    "=",
+                    "\"Hero\""
                   ]
                 }
               ]
