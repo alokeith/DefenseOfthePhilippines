@@ -5073,6 +5073,51 @@
         "name": "Assets\\sprites\\hud\\orig_scroll.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_rifle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_rifle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/andres_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\andres_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores0.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

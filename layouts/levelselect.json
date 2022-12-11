@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2324999999999988,
+    "zoomFactor": 1.1324999999999987,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -301,10 +301,40 @@
       "layer": "",
       "name": "InfoHistory",
       "persistentUuid": "46cfff51-768f-483b-8f33-98c1ce968a2b",
-      "width": 339,
-      "x": 270,
+      "width": 351,
+      "x": 264,
       "y": 73,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "name": "HeroName",
+      "persistentUuid": "9e7e8afc-60ca-484a-8d2c-5948e71a23ae",
+      "width": 139,
+      "x": 486,
+      "y": 326,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "",
+      "name": "EnemyName",
+      "persistentUuid": "72e2d87b-7bb0-4504-9ab5-5fbd5e821665",
+      "width": 151,
+      "x": 273,
+      "y": 332,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -649,7 +679,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "LightNight",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -795,6 +835,305 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "lapulapu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Lapu Tower\\attack_melee_grade_1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HeroName",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Spaniard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Spaniard\\spaniard_0_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "EnemyName",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AndresBonifacio",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\andres_slash0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "LeonKilat",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Kilat Tower\\idle_melee_grade_3-1-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "GuardiaCivil",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_rifle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Cazadores",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "events": [
@@ -1170,6 +1509,100 @@
                 "InfoHistory",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "lapulapu",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AndresBonifacio",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Cazadores",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GuardiaCivil",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Spaniard",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "LeonKilat",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "InfoHistory",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "InfoHistoryTitle",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HeroName",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "EnemyName",
+                "=",
+                "\"\""
+              ]
             }
           ],
           "events": [
@@ -1207,6 +1640,90 @@
                     "InfoHistory",
                     "=",
                     "\"The Battle of Mactan was a bloody battle that took place in the Philippines on April 27, 1521. A Spanish force fighting for Rajah Humabon of Cebu was overwhelmed and beaten by the warriors of Lapu Lapu, one of the Datus of Mactan, who were led by Portuguese explorer Ferdinand Magellan, who was killed in the conflict. The results of the conflict forced the Spanish sailors to leave the archipelago for the time being.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroName",
+                    "=",
+                    "\"Lapu-Lapu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyName",
+                    "=",
+                    "\"Spanish Conquistadores\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Spaniard",
+                    "305",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Spaniard",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Spaniard",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "lapulapu",
+                    "520",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "lapulapu",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "lapulapu",
+                    "=",
+                    "60"
                   ]
                 }
               ]
@@ -1246,6 +1763,90 @@
                     "=",
                     "\"On August 30, 1896, the Battle of San Juan del Monte took place. It is regarded as the first combat of the Philippine Revolution, which aimed to free the Philippines from Spanish rule. On the night of August 29, 1896, the Katipunan's first battle cry coincided with the pealing of church bells at nine o'clock.\n\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroName",
+                    "=",
+                    "\"Andres Bonifacio\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyName",
+                    "=",
+                    "\"Guardia Civil\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "AndresBonifacio",
+                    "495",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "AndresBonifacio",
+                    "=",
+                    "120"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "AndresBonifacio",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "GuardiaCivil",
+                    "305",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "GuardiaCivil",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "GuardiaCivil",
+                    "=",
+                    "60"
+                  ]
                 }
               ]
             },
@@ -1282,7 +1883,91 @@
                   "parameters": [
                     "InfoHistory",
                     "=",
-                    "\"Leon Kilat (actual name Pantaleon Villegas), a native of Bacong, Negros Oriental, joined the Katipunan revolutionary movement after traveling from Luzon in a circus conducted by Katipuneros. In early 1898, he arrived in Cebu City with a letter from Katipuneros in Luzon naming him as the leader of the Katipunan revolutionary movement in Cebu. He enlisted a large number of Cebuanos who were eager to expel the Spanish administration from their province for good. Leon Kilat and the Cebuano Katipuneros agreed to take up arms against the Spaniards on March 11, 1898, in Pacaa's sugarcane field in Barangay Labangon, launching the Cebu insurrection.\n\""
+                    "\"Leon Kilat (actual name Pantaleon Villegas), a native of Bacong, Negros Oriental. In early 1898, he arrived in Cebu City with a letter from Katipuneros in Luzon naming him as the leader of the Katipunan revolutionary movement in Cebu. He enlisted a large number of Cebuanos who were eager to expel the Spanish administration. Leon Kilat and the Cebuano Katipuneros agreed to take up arms against the Spaniards on March 11, 1898, in Pacaa's sugarcane field in Barangay Labangon, launching the Cebu insurrection.\n\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LeonKilat",
+                    "500",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "LeonKilat",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "LeonKilat",
+                    "=",
+                    "70"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Cazadores",
+                    "305",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Cazadores",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Cazadores",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroName",
+                    "=",
+                    "\"Leon Kilat\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyName",
+                    "=",
+                    "\"Cazadores\""
                   ]
                 }
               ]
@@ -1321,6 +2006,90 @@
                     "InfoHistory",
                     "=",
                     "\"The Battle of Calumpit (Filipino: Labanan sa Quingua), also known as the Battles of Bagbag and Pampanga Rivers, was fought in Calumpit, Bulacan, from April 25–27, 1899. The combat around Calumpit, which took place after the Battle of Quingua, pitted US forces under General Arthur MacArthur Jr. against General Antonio Luna's main force, with whom they had clashed after the surrender of Malolos on March 31, 1899.\n\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "lapulapu",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "lapulapu",
+                    "520",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Spaniard",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Spaniard",
+                    "305",
+                    "265",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "HeroName",
+                    "=",
+                    "\"Lapu-Lapu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "EnemyName",
+                    "=",
+                    "\"Spanish Conquistadores\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "lapulapu",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Spaniard",
+                    "=",
+                    "60"
                   ]
                 }
               ]
