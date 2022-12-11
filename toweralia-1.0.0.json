@@ -4974,6 +4974,69 @@
         "name": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_2-1-5.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-2-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

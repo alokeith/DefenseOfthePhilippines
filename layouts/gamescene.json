@@ -443,7 +443,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "idle_melee_grade_2-1-1.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -460,7 +460,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "idle_melee_grade_2-2-1.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-2-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -489,7 +489,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "attack_melee_grade_2-1-0.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -506,7 +506,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "attack_melee_grade_2-2-0.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-2-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -523,7 +523,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "attack_melee_grade_2-3-0.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-3-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -540,7 +540,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "attack_melee_grade_2-4-0.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-4-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -557,7 +557,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "attack_melee_grade_2-5-0.png",
+                  "image": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-5-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1275,17 +1275,28 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Assets\\sprites\\tower_1\\New Archer-tower\\tower_1_grade_3-1-1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "top ",
+                      "x": 16,
+                      "y": -32
+                    },
+                    {
+                      "name": "panel",
+                      "x": 16,
+                      "y": 16
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 44
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 44
                   },
                   "customCollisionMask": []
                 }
@@ -4548,6 +4559,47 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "enemyHealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "health",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4656,6 +4708,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Music",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6116,7 +6169,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"In this level the basic structure will be the archers while the hero will be \nLapu-lapu.\""
+                    "\"In this level the basic structure will be the archers while the hero will be \nLapu-lapu. Drag the tower cards to their designated placements marked by their corresponding color.\n\nExample: The green tower cards go to the tower placement with the green board.\""
                   ]
                 }
               ],
@@ -7075,6 +7128,7 @@
           "colorG": 117,
           "colorR": 65,
           "creationTime": 0,
+          "folded": true,
           "name": "Victory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7727,7 +7781,6 @@
       "colorG": 2,
       "colorR": 208,
       "creationTime": 0,
-      "folded": true,
       "name": "Enemies",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7761,7 +7814,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7926,7 +7978,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8255,7 +8306,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 0 (lvl4)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9736,6 +9786,11 @@
               "parameters": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -13362,7 +13417,6 @@
               "colorG": 16,
               "colorR": 189,
               "creationTime": 0,
-              "folded": true,
               "name": "Tower 2 wizards shoot",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13845,7 +13899,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Delete bullets",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14011,6 +14064,123 @@
                             "1"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Always"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "enemyHealthBar",
+                        "Grade1EnemiesGroup.X()",
+                        "Grade1EnemiesGroup.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeHeight"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Grade1EnemiesGroup",
+                        "enemyHealthBar"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "enemyHealthBar",
+                        "Grade1EnemiesGroup",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "Grade1EnemiesGroup.Variable(hp)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        "=",
+                        "Grade1EnemiesGroup.X()",
+                        "=",
+                        "Grade1EnemiesGroup.Y()-15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Grade1EnemiesGroup",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Grade1EnemiesGroup",
+                        "hp",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "enemyHealthBar",
+                        ""
                       ]
                     }
                   ]
