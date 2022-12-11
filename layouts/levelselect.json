@@ -26,14 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 315,
       "layer": "",
       "name": "hud_box",
       "persistentUuid": "93223a19-a0c2-4aac-9c72-c5a4a7730d9c",
-      "width": 0,
-      "x": 116,
-      "y": 44,
+      "width": 238,
+      "x": 6,
+      "y": 54,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -42,13 +42,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "821d5c25-5025-4f02-aa11-b90dac1f871e",
-      "width": 64,
-      "x": 396,
-      "y": 268,
+      "width": 52,
+      "x": 174,
+      "y": 235,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,14 +62,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 126,
       "layer": "",
       "name": "level_select",
       "persistentUuid": "f2eb9d6d-a1a2-451c-9a8d-a216a1f117ea",
-      "width": 0,
-      "x": 164,
-      "y": 0,
+      "width": 234,
+      "x": 5,
+      "y": 48,
       "zOrder": 3,
       "numberProperties": [
         {
@@ -83,13 +83,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "bab26308-9cea-4919-9aad-e41367115d4f",
-      "width": 64,
-      "x": 228,
-      "y": 268,
+      "width": 52,
+      "x": 65,
+      "y": 235,
       "zOrder": 2,
       "numberProperties": [
         {
@@ -109,13 +109,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "1e27a1eb-e098-4f0d-9cd0-c1338fd58458",
-      "width": 64,
-      "x": 312,
-      "y": 268,
+      "width": 52,
+      "x": 119,
+      "y": 235,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -150,8 +150,8 @@
       "name": "obj_btn_start",
       "persistentUuid": "0d52de5d-e4a6-4026-985b-075fdaf1e904",
       "width": 125,
-      "x": 249,
-      "y": 310,
+      "x": 65,
+      "y": 280,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -160,13 +160,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 53,
       "layer": "HUD",
       "name": "selector",
       "persistentUuid": "2aab8fa1-edde-4330-ad5e-fd62805ff026",
-      "width": 64,
-      "x": 228,
-      "y": 184,
+      "width": 53,
+      "x": 64.5,
+      "y": 180.5,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -175,13 +175,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "dbd34f87-cf4c-4201-8fab-8fdb65eeb0b4",
-      "width": 64,
-      "x": 228,
-      "y": 184,
+      "width": 52,
+      "x": 65,
+      "y": 181,
       "zOrder": 2,
       "numberProperties": [
         {
@@ -195,13 +195,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "3f67124c-083f-474a-acf3-1e868bc2a6ff",
-      "width": 64,
-      "x": 312,
-      "y": 184,
+      "width": 52,
+      "x": 119,
+      "y": 181,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -216,13 +216,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 52,
       "layer": "HUD",
       "name": "obj_btn_level",
       "persistentUuid": "ab350990-9344-4f73-a1df-7c9651f7434c",
-      "width": 64,
-      "x": 396,
-      "y": 184,
+      "width": 52,
+      "x": 173,
+      "y": 181,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -260,6 +260,51 @@
       "x": -9,
       "y": -98,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 361,
+      "layer": "",
+      "name": "hud_box",
+      "persistentUuid": "3960d27b-6ec7-4aa1-8ef6-3616cf89b1c7",
+      "width": 376,
+      "x": 253,
+      "y": 8,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "name": "InfoHistoryTitle",
+      "persistentUuid": "f954c53d-40b9-4717-a488-dc6b64afea34",
+      "width": 314,
+      "x": 274,
+      "y": 23,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 276,
+      "layer": "",
+      "name": "InfoHistory",
+      "persistentUuid": "46cfff51-768f-483b-8f33-98c1ce968a2b",
+      "width": 339,
+      "x": 270,
+      "y": 73,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -648,6 +693,108 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InfoHistory",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "InfoPanel",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "OldFilm",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "noise": 0.3,
+            "noiseSize": 1,
+            "scratch": 0.5,
+            "scratchDensity": 0.3,
+            "scratchWidth": 1,
+            "sepia": 0.3,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\sprites\\hud\\orig_scroll.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InfoHistoryTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 17,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -991,6 +1138,15 @@
                 "=",
                 "255"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "obj_btn_level",
+                "\"idle\""
+              ]
             }
           ],
           "actions": [
@@ -1005,9 +1161,170 @@
                 "=",
                 "obj_btn_level.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "InfoHistory",
+                ""
+              ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "obj_btn_level",
+                    "number",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistoryTitle",
+                    "=",
+                    "\"Battle of Mactan\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistory",
+                    "=",
+                    "\"The Battle of Mactan was a bloody battle that took place in the Philippines on April 27, 1521. A Spanish force fighting for Rajah Humabon of Cebu was overwhelmed and beaten by the warriors of Lapu Lapu, one of the Datus of Mactan, who were led by Portuguese explorer Ferdinand Magellan, who was killed in the conflict. The results of the conflict forced the Spanish sailors to leave the archipelago for the time being.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "obj_btn_level",
+                    "number",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistoryTitle",
+                    "=",
+                    "\"Battle of San Juan del Monte\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistory",
+                    "=",
+                    "\"On August 30, 1896, the Battle of San Juan del Monte took place. It is regarded as the first combat of the Philippine Revolution, which aimed to free the Philippines from Spanish rule. On the night of August 29, 1896, the Katipunan's first battle cry coincided with the pealing of church bells at nine o'clock.\n\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "obj_btn_level",
+                    "number",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistoryTitle",
+                    "=",
+                    "\"Battle of Tres de Abril\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistory",
+                    "=",
+                    "\"Leon Kilat (actual name Pantaleon Villegas), a native of Bacong, Negros Oriental, joined the Katipunan revolutionary movement after traveling from Luzon in a circus conducted by Katipuneros. In early 1898, he arrived in Cebu City with a letter from Katipuneros in Luzon naming him as the leader of the Katipunan revolutionary movement in Cebu. He enlisted a large number of Cebuanos who were eager to expel the Spanish administration from their province for good. Leon Kilat and the Cebuano Katipuneros agreed to take up arms against the Spaniards on March 11, 1898, in Pacaa's sugarcane field in Barangay Labangon, launching the Cebu insurrection.\n\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "obj_btn_level",
+                    "number",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistoryTitle",
+                    "=",
+                    "\"Battle of Calumpit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "InfoHistory",
+                    "=",
+                    "\"The Battle of Calumpit (Filipino: Labanan sa Quingua), also known as the Battles of Bagbag and Pampanga Rivers, was fought in Calumpit, Bulacan, from April 25–27, 1899. The combat around Calumpit, which took place after the Battle of Quingua, pitted US forces under General Arthur MacArthur Jr. against General Antonio Luna's main force, with whom they had clashed after the surrender of Malolos on March 31, 1899.\n\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [

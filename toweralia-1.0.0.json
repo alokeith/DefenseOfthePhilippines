@@ -5064,6 +5064,15 @@
         "name": "health-1-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/hud/orig_scroll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\hud\\orig_scroll.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
