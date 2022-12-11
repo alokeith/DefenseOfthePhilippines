@@ -297,13 +297,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 276,
+      "height": 282,
       "layer": "",
       "name": "InfoHistory",
       "persistentUuid": "46cfff51-768f-483b-8f33-98c1ce968a2b",
       "width": 351,
       "x": 264,
-      "y": 73,
+      "y": 67,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -317,8 +317,8 @@
       "name": "HeroName",
       "persistentUuid": "9e7e8afc-60ca-484a-8d2c-5948e71a23ae",
       "width": 139,
-      "x": 486,
-      "y": 326,
+      "x": 265,
+      "y": 320,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,9 +332,39 @@
       "name": "EnemyName",
       "persistentUuid": "72e2d87b-7bb0-4504-9ab5-5fbd5e821665",
       "width": 151,
-      "x": 273,
-      "y": 332,
+      "x": 485,
+      "y": 320,
       "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HeroBanner",
+      "persistentUuid": "982b1db8-78d4-4ff2-ae42-194e8d95b892",
+      "width": 0,
+      "x": 304,
+      "y": 348,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "EnemyBanner",
+      "persistentUuid": "379098df-87ae-4be5-ad19-37893c5e6441",
+      "width": 0,
+      "x": 525,
+      "y": 347,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1134,6 +1164,48 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HeroBanner",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hero",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "EnemyBanner",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Enemy",
+      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -1669,8 +1741,8 @@
                   "parameters": [
                     "",
                     "Spaniard",
-                    "305",
-                    "265",
+                    "520",
+                    "250",
                     ""
                   ]
                 },
@@ -1701,8 +1773,8 @@
                   "parameters": [
                     "",
                     "lapulapu",
-                    "520",
-                    "265",
+                    "305",
+                    "250",
                     ""
                   ]
                 },
@@ -1791,8 +1863,8 @@
                   "parameters": [
                     "",
                     "AndresBonifacio",
-                    "495",
-                    "265",
+                    "290",
+                    "250",
                     ""
                   ]
                 },
@@ -1823,8 +1895,8 @@
                   "parameters": [
                     "",
                     "GuardiaCivil",
-                    "305",
-                    "265",
+                    "525",
+                    "250",
                     ""
                   ]
                 },
@@ -1893,8 +1965,8 @@
                   "parameters": [
                     "",
                     "LeonKilat",
-                    "500",
-                    "250",
+                    "305",
+                    "245",
                     ""
                   ]
                 },
@@ -1925,8 +1997,8 @@
                   "parameters": [
                     "",
                     "Cazadores",
-                    "305",
-                    "265",
+                    "510",
+                    "255",
                     ""
                   ]
                 },
@@ -2025,8 +2097,8 @@
                   "parameters": [
                     "",
                     "lapulapu",
-                    "520",
-                    "265",
+                    "305",
+                    "250",
                     ""
                   ]
                 },
@@ -2047,8 +2119,8 @@
                   "parameters": [
                     "",
                     "Spaniard",
-                    "305",
-                    "265",
+                    "520",
+                    "250",
                     ""
                   ]
                 },
