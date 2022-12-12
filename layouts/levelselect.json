@@ -1524,8 +1524,53 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "selector",
+                "=",
+                "64.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "selector",
+                "=",
+                "180.50"
+              ]
+            }
+          ],
           "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "lapulapu",
+                "305",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Spaniard",
+                "520",
+                "250",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ChangeWidth"
@@ -1574,30 +1619,6 @@
                 "Spaniard",
                 "=",
                 "60"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "lapulapu",
-                "305",
-                "250",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Spaniard",
-                "520",
-                "250",
-                ""
               ]
             },
             {
