@@ -13186,7 +13186,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "tower_2_top",
                   "conditions": [
@@ -13341,7 +13340,8 @@
                       "parameters": [
                         "",
                         "tower_2_bullet_trail",
-                        "tower_2_bullet"
+                        "tower_2_bullet",
+                        ""
                       ]
                     }
                   ],
@@ -13379,7 +13379,6 @@
                   "actions": [],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
