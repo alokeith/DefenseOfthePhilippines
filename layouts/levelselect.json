@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1324999999999987,
+    "zoomFactor": 1.0524999999999987,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -1418,6 +1418,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -1517,6 +1522,136 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "lapulapu",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "Spaniard",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HeroBanner",
+                "=",
+                "\"Hero\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "lapulapu",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "Spaniard",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "lapulapu",
+                "305",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Spaniard",
+                "520",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "InfoHistoryTitle",
+                "=",
+                "\"Battle of Mactan\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "InfoHistory",
+                "=",
+                "\"The Battle of Mactan was a bloody battle that took place in the Philippines on April 27, 1521. A Spanish force fighting for Rajah Humabon of Cebu was overwhelmed and beaten by the warriors of Lapu Lapu, one of the Datus of Mactan, who were led by Portuguese explorer Ferdinand Magellan, who was killed in the conflict. The results of the conflict forced the Spanish sailors to leave the archipelago for the time being.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HeroName",
+                "=",
+                "\"Lapu-Lapu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "EnemyName",
+                "=",
+                "\"Spanish Conquistadores\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "EnemyBanner",
+                "=",
+                "\"Enemy\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
