@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2111979166666664,
+    "zoomFactor": 1.0723979166666657,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -719,27 +719,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "moregames",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "More games",
-      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
-      "characterSize": 32,
-      "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
-      }
-    },
-    {
-      "assetStoreId": "",
       "height": 8,
       "name": "info_bg",
       "tags": "",
@@ -1201,18 +1180,6 @@
                 "MouseX(,)",
                 "=",
                 "MouseY(,)"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "moregames",
-                "=",
-                "(SceneWindowWidth()/2) -(moregames.Width()/2)",
-                "=",
-                "moregames.Y()"
               ]
             },
             {

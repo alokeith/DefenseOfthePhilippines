@@ -6391,7 +6391,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Z-order",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6470,7 +6469,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6840,7 +6838,6 @@
           "colorG": 117,
           "colorR": 65,
           "creationTime": 0,
-          "folded": true,
           "name": "Victory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7049,7 +7046,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Controls the levels of the game for this template only 3 playable levels so the number 6 represents the End scene of the game",
+                  "comment": "only 3 playable levels so the number 6 represents the End scene of the game",
                   "comment2": ""
                 },
                 {
@@ -12054,7 +12051,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Sell tower",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
