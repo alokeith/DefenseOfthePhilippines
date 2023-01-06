@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2111979166666664,
+    "zoomFactor": 1.0723979166666657,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -719,27 +719,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "moregames",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "More games",
-      "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
-      "characterSize": 32,
-      "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
-      }
-    },
-    {
-      "assetStoreId": "",
       "height": 8,
       "name": "info_bg",
       "tags": "",
@@ -1208,18 +1187,6 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "moregames",
-                "=",
-                "(SceneWindowWidth()/2) -(moregames.Width()/2)",
-                "=",
-                "moregames.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
                 "info_txt",
                 "=",
                 "(SceneWindowWidth() / 2) - (info_txt.Width() / 2)",
@@ -1605,69 +1572,6 @@
                     "value": "Quit"
                   },
                   "parameters": [
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 27,
-      "colorG": 2,
-      "colorR": 208,
-      "creationTime": 0,
-      "disabled": true,
-      "name": "More games",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "moregames",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "LaunchFile"
-                  },
-                  "parameters": [
-                    "\"https://www.crimsongames.io\"",
                     ""
                   ]
                 }

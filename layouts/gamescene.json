@@ -5873,126 +5873,6 @@
                 "value": "SceneVariableAsBoolean"
               },
               "parameters": [
-                "stage_cleared",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "tutorial",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "game_level",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "tutorial_number",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "tutorial",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "stage_cleared",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "tutorial",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "game_level",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "tutorial_number",
-                "=",
-                "4"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "tutorial",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
                 "tutorial",
                 "True"
               ]
@@ -6169,7 +6049,7 @@
                   "parameters": [
                     "txt_tutorial",
                     "=",
-                    "\"In this level the basic structure will be the archers while the hero will be \nLapu-lapu. Drag the tower cards to their designated placements marked by their corresponding color.\n\nExample: The green tower cards go to the tower placement with the green board.\""
+                    "\"In this level the basic structure will be the archers, while the hero will be Lapu-Lapu. Drag the tower cards to their designated placements marked by their corresponding color. Example: The green tower cards go to the tower placement with the green board!\""
                   ]
                 }
               ],
@@ -6195,178 +6075,10 @@
                       },
                       "parameters": [
                         "",
-                        "Assets\\sounds\\tutorial-archers.wav",
+                        "..\\..\\..\\Desktop\\tutorial_archers.wav",
                         "11",
                         "",
-                        "0",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "game_level",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "tutorial_number",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "victory",
-                    "\"tutorial\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "txt_tutorial",
-                    "=",
-                    "\"          Level 2\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SoundPlaying"
-                      },
-                      "parameters": [
-                        "",
-                        "11"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Assets\\sounds\\tutorial-wizards.wav",
-                        "11",
-                        "",
-                        "0",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "game_level",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "tutorial_number",
-                    "=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "victory",
-                    "\"tutorial\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "txt_tutorial",
-                    "=",
-                    "\"          Level 3\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SoundPlaying"
-                      },
-                      "parameters": [
-                        "",
-                        "11"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Assets\\sounds\\tutorial-melee.wav",
-                        "11",
-                        "",
-                        "0",
+                        "100",
                         "1"
                       ]
                     }
@@ -6679,7 +6391,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Z-order",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6758,7 +6469,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7128,7 +6838,6 @@
           "colorG": 117,
           "colorR": 65,
           "creationTime": 0,
-          "folded": true,
           "name": "Victory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7337,7 +7046,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Controls the levels of the game for this template only 3 playable levels so the number 6 represents the End scene of the game",
+                  "comment": "only 3 playable levels so the number 6 represents the End scene of the game",
                   "comment2": ""
                 },
                 {
@@ -8470,7 +8179,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 1 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8635,7 +8343,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 1 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8800,7 +8507,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 1 (lvl3)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8965,7 +8671,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 1 (lvl4)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9130,7 +8835,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 2 (lvl1)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9295,7 +8999,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 2 (lvl2)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9460,7 +9163,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 2 (lvl3)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9625,7 +9327,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies wave 2 (lvl4)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12350,7 +12051,6 @@
               "colorG": 74,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Sell tower",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13482,7 +13182,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "tower_2_top",
                   "conditions": [
@@ -13637,7 +13336,8 @@
                       "parameters": [
                         "",
                         "tower_2_bullet_trail",
-                        "tower_2_bullet"
+                        "tower_2_bullet",
+                        ""
                       ]
                     }
                   ],
@@ -13675,7 +13375,6 @@
                   "actions": [],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {

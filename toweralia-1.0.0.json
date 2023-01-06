@@ -23,7 +23,7 @@
     "author": "<ktlagos.student@asiancollege.edu.ph>",
     "windowWidth": 640,
     "windowHeight": 380,
-    "latestCompilationDirectory": "C:\\Users\\ACER\\Desktop\\TowerDefense",
+    "latestCompilationDirectory": "C:\\Users\\dekemce\\Desktop",
     "maxFPS": 0,
     "minFPS": 20,
     "verticalSync": false,
@@ -5072,6 +5072,61 @@
         "metadata": "",
         "name": "Assets\\sprites\\hud\\orig_scroll.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Guardia Civil/guardia_rifle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Guardia Civil\\guardia_rifle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/attack_melee_grade_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\attack_melee_grade_2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/idle_melee_grade_2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\idle_melee_grade_2-1-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/tower_3/New Towers/Andres Tower/andres_slash0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\tower_3\\New Towers\\Andres Tower\\andres_slash0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/sprites/enemies/Cazadores/enemy_cazadores0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\sprites\\enemies\\Cazadores\\enemy_cazadores0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "../../../Desktop/tutorial_archers.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\tutorial_archers.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
