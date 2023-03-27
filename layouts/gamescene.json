@@ -3010,6 +3010,7 @@
       "behaviors": [],
       "string": "Killed: 0",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 28,
@@ -3031,6 +3032,7 @@
       "behaviors": [],
       "string": "Escaped: 0",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 28,
@@ -3052,6 +3054,7 @@
       "behaviors": [],
       "string": "Wave: 1 of 3",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 28,
@@ -3073,6 +3076,7 @@
       "behaviors": [],
       "string": "Coins: 00000",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 28,
@@ -3094,6 +3098,7 @@
       "behaviors": [],
       "string": "Hero",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 7,
       "color": {
         "b": 28,
@@ -3115,6 +3120,7 @@
       "behaviors": [],
       "string": "Units",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 7,
       "color": {
         "b": 28,
@@ -3640,6 +3646,7 @@
       "behaviors": [],
       "string": "Text",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -3661,6 +3668,7 @@
       "behaviors": [],
       "string": "Game paused",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 255,
@@ -3682,6 +3690,7 @@
       "behaviors": [],
       "string": "Debug",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 12,
       "color": {
         "b": 255,
@@ -3785,6 +3794,7 @@
       "behaviors": [],
       "string": "Text",
       "font": "",
+      "textAlignment": "",
       "characterSize": 13,
       "color": {
         "b": 255,
@@ -4415,6 +4425,7 @@
       ],
       "string": "Change me in events",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 14,
       "color": {
         "b": 255,
@@ -4708,7 +4719,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Music",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5123,180 +5133,6 @@
                         "game_selected",
                         "=",
                         "3"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "game_level",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"level_4\"",
-                        "0",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "total_waves",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "enemies_per_wave",
-                        "=",
-                        "10"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "game_selected",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "game_level",
-                        "=",
-                        "5"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"level_5\"",
-                        "0",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "total_waves",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "enemies_per_wave",
-                        "=",
-                        "10"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "game_selected",
-                        "=",
-                        "5"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "game_level",
-                        "=",
-                        "6"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "\"level_6\"",
-                        "0",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "total_waves",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "enemies_per_wave",
-                        "=",
-                        "10"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "game_selected",
-                        "=",
-                        "6"
                       ]
                     }
                   ]

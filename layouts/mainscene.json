@@ -710,6 +710,7 @@
       "behaviors": [],
       "string": "A Game Submitted to the Faculty of the College of Computer Studies and Engineering",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,

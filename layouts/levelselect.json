@@ -778,6 +778,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -859,6 +860,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 17,
       "color": {
         "b": 255,
@@ -921,6 +923,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -983,6 +986,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -1179,6 +1183,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -1200,6 +1205,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,

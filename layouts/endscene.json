@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2916666381835937,
+    "zoomFactor": 1.0586005054770955,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -26,14 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 371,
       "layer": "",
       "name": "hud_box",
       "persistentUuid": "93223a19-a0c2-4aac-9c72-c5a4a7730d9c",
-      "width": 0,
-      "x": 116,
-      "y": 44,
+      "width": 595,
+      "x": 21,
+      "y": 6,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,7 +48,7 @@
       "persistentUuid": "f2eb9d6d-a1a2-451c-9a8d-a216a1f117ea",
       "width": 0,
       "x": 164,
-      "y": 0,
+      "y": -25,
       "zOrder": 3,
       "numberProperties": [
         {
@@ -92,14 +92,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 116,
+      "height": 233,
       "layer": "HUD",
       "name": "txt_credits",
       "persistentUuid": "43a3002c-7136-4d27-81b8-220f2f920c33",
-      "width": 344,
-      "x": 144,
-      "y": 184,
-      "zOrder": 22,
+      "width": 564,
+      "x": 35,
+      "y": 124,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -212,8 +212,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "This game is the Project of:\n\n- Keith Lagos\n- Dekemce Duka\n- Abegail Ferraren\n- Ozzy Clint Marikit\n\nThank you for playing!",
+      "string": "Future Updates will include: level 4 to level 6\nThis game is the Project of:\n- Keith Lagos\n- Dekemce Duka\n- Abegail Ferraren\n- Ozzy Clint Marikit\n\nThank you for playing!",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 12,
       "color": {
         "b": 28,
@@ -354,7 +355,7 @@
               "parameters": [
                 "txt_credits",
                 "=",
-                "80"
+                "70"
               ]
             },
             {
@@ -369,33 +370,22 @@
             },
             {
               "type": {
-                "value": "TextObject::SetWrapping"
-              },
-              "parameters": [
-                "txt_credits",
-                "yes"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextObject::WrappingWidth"
               },
               "parameters": [
                 "txt_credits",
                 "=",
-                "1280"
+                "1500"
               ]
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "MettreX"
               },
               "parameters": [
                 "txt_credits",
                 "=",
-                "SceneWindowWidth()/2 - txt_credits.Width()/2",
-                "=",
-                "txt_credits.Y()"
+                "SceneWindowWidth()/2 - txt_credits.Width()/2"
               ]
             },
             {
