@@ -486,6 +486,7 @@
       "behaviors": [],
       "string": "Sounds",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 15,
       "color": {
         "b": 255,
@@ -507,6 +508,7 @@
       "behaviors": [],
       "string": "Music\n",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 15,
       "color": {
         "b": 255,

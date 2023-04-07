@@ -71,9 +71,14 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
     "authorIds": [
       "53HAl1KYxqWa3KI0zSpPdvKUXTk1"
     ],
+    "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],

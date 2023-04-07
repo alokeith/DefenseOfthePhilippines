@@ -55,6 +55,7 @@
       "behaviors": [],
       "string": "Created By\n\nKeith Lagos\nDekemce Duka\nAbegail Ferraren\nOzzy Clint Marikit\n\nFor Thesis Project\n",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 0,

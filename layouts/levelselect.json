@@ -778,6 +778,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -859,6 +860,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 17,
       "color": {
         "b": 255,
@@ -921,6 +923,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -983,6 +986,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -1179,6 +1183,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -1200,6 +1205,7 @@
       "behaviors": [],
       "string": "",
       "font": "Assets\\fonts\\PressStart2P-Regular.ttf",
+      "textAlignment": "",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -1872,6 +1878,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "obj_btn_start",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextObject::String"
                   },
                   "parameters": [
@@ -2014,6 +2029,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "obj_btn_start",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextObject::String"
                   },
                   "parameters": [
@@ -2154,6 +2178,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "obj_btn_start",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "TextObject::String"
@@ -2303,7 +2336,7 @@
                   "parameters": [
                     "InfoHistoryTitle",
                     "=",
-                    "\"Battle of Calumpit\""
+                    "\"LEVEL LOCKED\""
                   ]
                 },
                 {
@@ -2313,7 +2346,7 @@
                   "parameters": [
                     "InfoHistory",
                     "=",
-                    "\"The Battle of Calumpit (Filipino: Labanan sa Quingua), also known as the Battles of Bagbag and Pampanga Rivers, was fought in Calumpit, Bulacan, from April 25–27, 1899. The combat around Calumpit, which took place after the Battle of Quingua, pitted US forces under General Arthur MacArthur Jr. against General Antonio Luna's main force, with whom they had clashed after the surrender of Malolos on March 31, 1899.\n\""
+                    "\"This level is under development and will be included in a possible future update\""
                   ]
                 },
                 {
@@ -2418,6 +2451,14 @@
                     "HeroBanner",
                     "=",
                     "\"Hero\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "obj_btn_start"
                   ]
                 }
               ]
